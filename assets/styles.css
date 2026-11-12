@@ -272,13 +272,12 @@ main > section.directory { padding-block: 44px 32px; }
   height: auto;
   aspect-ratio: 2 / 1;
   flex-shrink: 0;
-  object-fit: contain;
+  object-fit: cover;
   margin: 0 0 12px;
   border: 0;
   border-radius: 0;
   background: var(--black);
 }
-.project-art-cover { object-fit: cover; }
 .project.project-with-art h3 { padding-inline: 10px; }
 .project-with-art .tile-arrow {
   top: 8px;
