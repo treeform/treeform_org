@@ -1,0 +1,34 @@
+Video thumbnails
+
+Original YouTube thumbnails from the Andre and Ryan Program channel.
+Source: https://www.youtube.com/channel/UC1r0r_fciKYgF5cqC6rwdgw
+The thumbnails are used to link to the original videos. The website MIT
+license does not relicense the videos or their thumbnail artwork.
+
+UFbffBIzEDc.jpg
+Efficient 2D rendering on GPU
+https://www.youtube.com/watch?v=UFbffBIzEDc
+
+Did21OYIrGI.jpg
+Pixie 5.0 out now - improved graphics performance!
+https://www.youtube.com/watch?v=Did21OYIrGI
+
+nyhkhB23tOQ.jpg
+Discussing Nim 2.0
+https://www.youtube.com/watch?v=nyhkhB23tOQ
+
+yu6SC2vd3qM.jpg
+Nim Metaprogramming in the Real World
+https://www.youtube.com/watch?v=yu6SC2vd3qM
+
+vYwD7OynFcg.jpg
+The details of JPEG decoding in Nim
+https://www.youtube.com/watch?v=vYwD7OynFcg
+
+bqB8oPeSx_o.jpg
+Loading JPEGs in Nim using Pixie
+https://www.youtube.com/watch?v=bqB8oPeSx_o
+
+oUB0BGsNY5g.jpg
+GPU Gaussian Blur in Nim using Boxy and Shady
+https://www.youtube.com/watch?v=oUB0BGsNY5g
