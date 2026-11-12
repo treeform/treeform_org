@@ -278,6 +278,7 @@ main > section.directory { padding-block: 44px 32px; }
   border-radius: 0;
   background: var(--black);
 }
+.project-art-cover { object-fit: cover; }
 .project.project-with-art h3 { padding-inline: 10px; }
 .project-with-art .tile-arrow {
   top: 8px;
