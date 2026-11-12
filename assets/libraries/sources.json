@@ -1,0 +1,386 @@
+[
+  {
+    "repo": "treeform/silky",
+    "asset": null,
+    "source": null,
+    "commit": "1b63e76c43e316daff78ecb2147c128a482e5402",
+    "reason": "README has no artwork; image assets are example UI controls, not a library hero."
+  },
+  {
+    "repo": "treeform/pixie",
+    "asset": "assets/libraries/pixie.png",
+    "source": "https://raw.githubusercontent.com/treeform/pixie/30bb510877f02cbf9643e4f904e33d1c90f7910f/docs/banner.png",
+    "commit": "30bb510877f02cbf9643e4f904e33d1c90f7910f",
+    "reason": "Leading README banner, explicitly displayed before project heading.",
+    "width": 1920,
+    "height": 960,
+    "license": "MIT",
+    "licenseFile": "assets/libraries/licenses/pixie.txt",
+    "sha256": "61ca5d911fd45b99fd674d7f511136f95d58e3492ef86b8962762a2a4cce1ba5"
+  },
+  {
+    "repo": "treeform/boxy",
+    "asset": "assets/libraries/boxy.png",
+    "source": "https://raw.githubusercontent.com/treeform/boxy/d6ec494969084d7ebabd0fedea76ff28c74d6770/docs/banner.png",
+    "commit": "d6ec494969084d7ebabd0fedea76ff28c74d6770",
+    "reason": "Leading README banner, explicitly displayed before project heading.",
+    "width": 1920,
+    "height": 960,
+    "license": "MIT",
+    "licenseFile": "assets/libraries/licenses/boxy.txt",
+    "sha256": "f48418c5ef33301cff9ff4d31c5923d553c12688151ed9ee7b9dac09896cff84"
+  },
+  {
+    "repo": "treeform/windy",
+    "asset": null,
+    "source": null,
+    "commit": "549077e703ccb6e58c7d4a4d229a17bbd51a0d50",
+    "reason": "README has only a build badge; repository has only a test texture, no hero or banner."
+  },
+  {
+    "repo": "treeform/fidget2",
+    "asset": "assets/libraries/fidget2.png",
+    "source": "https://raw.githubusercontent.com/treeform/fidget2/92d56b62074d0fa45e967b8393352d799af2e51e/docs/banner.png",
+    "commit": "92d56b62074d0fa45e967b8393352d799af2e51e",
+    "reason": "Leading README banner, explicitly displayed before project heading.",
+    "width": 1620,
+    "height": 515,
+    "license": "MIT",
+    "licenseFile": "assets/libraries/licenses/fidget2.txt",
+    "sha256": "bf886e9ff5d048db6543e7909793db0b76177f0f507ad5970eacc7c933c95945"
+  },
+  {
+    "repo": "treeform/shady",
+    "asset": null,
+    "source": null,
+    "commit": "c899f7cd17dbe7021d6e3aa2908e6de6549c47f1",
+    "reason": "README illustrations are shader examples, not a library hero; no dedicated banner/logo in tree."
+  },
+  {
+    "repo": "treeform/orbits",
+    "asset": null,
+    "source": null,
+    "commit": "39865fe0e0bde9b42a5cd81427257b379c4012ca",
+    "reason": "README illustrations are orbital diagrams and test plots, not a library hero; no dedicated banner/logo in tree."
+  },
+  {
+    "repo": "treeform/gltf",
+    "asset": "assets/libraries/gltf.png",
+    "source": "https://raw.githubusercontent.com/treeform/gltf/adbf72a1dbfe797e5b87136cf9c1ad6665b222d9/docs/gltf.png",
+    "commit": "adbf72a1dbfe797e5b87136cf9c1ad6665b222d9",
+    "reason": "Leading README image serves as repository hero. Original unchanged.",
+    "width": 1920,
+    "height": 960,
+    "license": "MIT",
+    "licenseFile": "assets/libraries/licenses/gltf.txt",
+    "sha256": "0e03e5d990cf2cddc611ef0ef7d1fae79760b25daa2330296ee49ba9073eb2c5"
+  },
+  {
+    "repo": "treeform/chroma",
+    "asset": "assets/libraries/chroma.png",
+    "source": "https://raw.githubusercontent.com/treeform/chroma/08b0d65590221bb964544fd9badf29a146b9091a/docs/chromaBanner.png",
+    "commit": "08b0d65590221bb964544fd9badf29a146b9091a",
+    "reason": "Leading README image serves as repository hero. Original unchanged.",
+    "width": 1920,
+    "height": 960,
+    "license": "MIT",
+    "licenseFile": "assets/libraries/licenses/chroma.txt",
+    "sha256": "83ce314f4905b3e3e60a64e451f9884685272dcc119fffe646d2c28d86c9fe59"
+  },
+  {
+    "repo": "treeform/spacy",
+    "asset": null,
+    "source": null,
+    "commit": "5d77384202a7b4377423310b94e75ef987c1dcb9",
+    "reason": "No leading hero/banner/logo in README or dedicated hero/banner/logo asset in repository tree. Existing icon retained."
+  },
+  {
+    "repo": "treeform/bumpy",
+    "asset": null,
+    "source": null,
+    "commit": "93583f6f8056a6259aaa96c89f4c143ba55bc6f0",
+    "reason": "No leading hero/banner/logo in README or dedicated hero/banner/logo asset in repository tree. Existing icon retained."
+  },
+  {
+    "repo": "treeform/vmath",
+    "asset": "assets/libraries/vmath.png",
+    "source": "https://raw.githubusercontent.com/treeform/vmath/bc260143102153b76328783e1c76c96e52c52a4b/docs/banner.png",
+    "commit": "bc260143102153b76328783e1c76c96e52c52a4b",
+    "reason": "First image at the top of the upstream README, before the project title. Original bytes preserved.",
+    "width": 1920,
+    "height": 960,
+    "license": "MIT",
+    "licenseFile": "assets/libraries/licenses/vmath.txt",
+    "sha256": "6577ea9e377469415a890271074ea3b60abf5794534023fa0cd4d1df25024353"
+  },
+  {
+    "repo": "treeform/metal4",
+    "asset": "assets/libraries/metal4.png",
+    "source": "https://raw.githubusercontent.com/treeform/metal4/e9ef085d38cdc7abf3d89670f3eae1754595b9f9/docs/metal4.png",
+    "commit": "e9ef085d38cdc7abf3d89670f3eae1754595b9f9",
+    "reason": "First image at the top of the upstream README, before the project title. Original bytes preserved.",
+    "width": 1920,
+    "height": 960,
+    "license": "MIT",
+    "licenseFile": "assets/libraries/licenses/metal4.txt",
+    "sha256": "533fc8bebf770254f07bd7dcf674a5b30ba71293a53f62d39a0b8df8014b79fc"
+  },
+  {
+    "repo": "treeform/vk14",
+    "asset": "assets/libraries/vk14.png",
+    "source": "https://raw.githubusercontent.com/treeform/vk14/183cf440d6460d97c6b35d6346079d9982f8cd57/docs/vk14.png",
+    "commit": "183cf440d6460d97c6b35d6346079d9982f8cd57",
+    "reason": "First image at the top of the upstream README, before the project title. Original bytes preserved.",
+    "width": 1920,
+    "height": 960,
+    "license": "MIT",
+    "licenseFile": "assets/libraries/licenses/vk14.txt",
+    "sha256": "00e313ca7430022ec18f9254a60b082d418481c96a8e59acbd289234590e05aa"
+  },
+  {
+    "repo": "treeform/ogl46",
+    "asset": "assets/libraries/ogl46.png",
+    "source": "https://raw.githubusercontent.com/treeform/ogl46/b78b6df7536d8b6cc3ac4bd36af6011184dd4562/docs/ogl46.png",
+    "commit": "b78b6df7536d8b6cc3ac4bd36af6011184dd4562",
+    "reason": "First image at the top of the upstream README, before the project title. Original bytes preserved.",
+    "width": 1920,
+    "height": 960,
+    "license": "MIT",
+    "licenseFile": "assets/libraries/licenses/ogl46.txt",
+    "sha256": "bfa878b46251cc5881beb0262c0706a1efd9d05f4db6ea48346185d71ab3a3b1"
+  },
+  {
+    "repo": "treeform/dx12",
+    "asset": "assets/libraries/dx12.png",
+    "source": "https://raw.githubusercontent.com/treeform/dx12/65049f4e2ec1acbbf1987bfa79817d472650c15e/docs/dx12.png",
+    "commit": "65049f4e2ec1acbbf1987bfa79817d472650c15e",
+    "reason": "First image at the top of the upstream README, before the project title. Original bytes preserved.",
+    "width": 1920,
+    "height": 960,
+    "license": "MIT",
+    "licenseFile": "assets/libraries/licenses/dx12.txt",
+    "sha256": "a300fac1b4b440b33ae75a1def21186fddb5bf242ec9d28b038bfbcde08007a2"
+  },
+  {
+    "repo": "treeform/slappy",
+    "asset": null,
+    "source": null,
+    "commit": "bd8eed6f4e0c02be517f3d8a8d8653a5015ca16b",
+    "reason": "No hero/banner/logo in README or repository tree. Only unrelated UI test assets."
+  },
+  {
+    "repo": "guzba/mummy",
+    "asset": null,
+    "source": null,
+    "commit": "01deb1ff694988635c7bf0f24f6088a0bdf6db5d",
+    "reason": "No embedded hero/banner/logo in README or repository tree. docs/mummy.jpg is linked only as a historical name reference, not a project hero."
+  },
+  {
+    "repo": "treeform/ws",
+    "asset": "assets/libraries/ws.png",
+    "source": "https://raw.githubusercontent.com/treeform/ws/c9c0c7b51e2e83cc9305a895a0b144a297b4bea8/docs/wsBanner.png",
+    "commit": "c9c0c7b51e2e83cc9305a895a0b144a297b4bea8",
+    "reason": "First image at the top of the upstream README, before the project title. Original bytes preserved.",
+    "width": 1920,
+    "height": 960,
+    "license": "MIT",
+    "licenseFile": "assets/libraries/licenses/ws.txt",
+    "sha256": "49e872c7268d4ed9cb8c996bbdaf6d3ea416d3b2e88c605128c008e01d0894e6"
+  },
+  {
+    "repo": "treeform/puppy",
+    "asset": "assets/libraries/puppy.png",
+    "source": "https://raw.githubusercontent.com/treeform/puppy/584b2e914140ca199635b9dd137739de1500be36/docs/puppyBanner.png",
+    "commit": "584b2e914140ca199635b9dd137739de1500be36",
+    "reason": "First image at the top of the upstream README, before the project title. Original bytes preserved.",
+    "width": 1920,
+    "height": 960,
+    "license": "MIT",
+    "licenseFile": "assets/libraries/licenses/puppy.txt",
+    "sha256": "5e21c234b5be298e1587ed78841cfa47bf9a84c50515df01c4334022299dca84"
+  },
+  {
+    "repo": "treeform/netty",
+    "asset": "assets/libraries/netty.png",
+    "source": "https://raw.githubusercontent.com/treeform/netty/c9a76edaadc23d3cfd4c2410f04577d3913f8f2c/docs/nettyBanner.png",
+    "commit": "c9a76edaadc23d3cfd4c2410f04577d3913f8f2c",
+    "reason": "First image at the top of the upstream README, before the project title. Original bytes preserved.",
+    "width": 1920,
+    "height": 960,
+    "license": "MIT",
+    "licenseFile": "assets/libraries/licenses/netty.txt",
+    "sha256": "a2156a3224b42996584dd03e498ec6aed6a3fd3ca13a1a09c209f80cc4a89869"
+  },
+  {
+    "repo": "treeform/webby",
+    "asset": "assets/libraries/webby.png",
+    "source": "https://raw.githubusercontent.com/treeform/webby/fe515be4ab5d02695289f88fca0d27f703a05599/docs/webbyBanner.png",
+    "commit": "fe515be4ab5d02695289f88fca0d27f703a05599",
+    "reason": "First image at the top of the upstream README, before the project title. Original bytes preserved.",
+    "width": 1920,
+    "height": 960,
+    "license": "MIT",
+    "licenseFile": "assets/libraries/licenses/webby.txt",
+    "sha256": "dbc4a1d01f694b3078594c4aa4f1224fc108493757bffe257e4a7776c3361904"
+  },
+  {
+    "repo": "guzba/ready",
+    "asset": null,
+    "source": null,
+    "commit": "82f12ce64b9c8a03a60382118ce4b6a014fc9aa0",
+    "reason": "No repository hero/banner/logo artwork found; README has only text and status badges, and repository tree has no suitable image assets. Keep existing icon."
+  },
+  {
+    "repo": "guzba/whisky",
+    "asset": null,
+    "source": null,
+    "commit": "494fb1046f5a563defc87ac36b8c62846ee7ea2c",
+    "reason": "No repository hero/banner/logo artwork found; README has only text and status badges, and repository tree has no suitable image assets. Keep existing icon."
+  },
+  {
+    "repo": "guzba/curly",
+    "asset": null,
+    "source": null,
+    "commit": "29558e2d2b76244a2c65fea08e9f4efff16c1997",
+    "reason": "No repository hero/banner/logo artwork found; README has only text and status badges, and repository tree has no suitable image assets. Keep existing icon."
+  },
+  {
+    "repo": "guzba/jwtea",
+    "asset": null,
+    "source": null,
+    "commit": "21d1617996f1928492e665c8008b0b3fc8b4a629",
+    "reason": "No repository hero/banner/logo artwork found; README has only text and status badges, and repository tree has no suitable image assets. Keep existing icon."
+  },
+  {
+    "repo": "treeform/jsony",
+    "asset": null,
+    "source": null,
+    "commit": "ce1ea84458c721947bd8e86ec065eeefab2656f1",
+    "reason": "No repository hero/banner/logo artwork found; README has only text and status badges, and repository tree has no suitable image assets. Keep existing icon."
+  },
+  {
+    "repo": "guzba/zippy",
+    "asset": null,
+    "source": null,
+    "commit": "d04ef53d76132bbd46e4a4a9058440831f0b4824",
+    "reason": "README has only a workflow badge and the repository contains no hero/banner/logo artwork."
+  },
+  {
+    "repo": "treeform/flatty",
+    "asset": null,
+    "source": null,
+    "commit": "9c3f14cc287890b742196b4f0f74f0b9faab29cb",
+    "reason": "README has only a workflow badge and the repository contains no hero/banner/logo artwork."
+  },
+  {
+    "repo": "guzba/supersnappy",
+    "asset": null,
+    "source": null,
+    "commit": "4fed6553d539cbbfb17ab5fea16a58b4f1916e7d",
+    "reason": "README has only a workflow badge and the repository contains no hero/banner/logo artwork."
+  },
+  {
+    "repo": "treeform/chrono",
+    "asset": "assets/libraries/chrono.png",
+    "source": "https://raw.githubusercontent.com/treeform/chrono/4684994775ad6d10ff73daca7492a4792965deb3/docs/chronoBanner.png",
+    "commit": "4684994775ad6d10ff73daca7492a4792965deb3",
+    "reason": "The first README element is docs/chronoBanner.png, the repository\u2019s named banner.",
+    "width": 1920,
+    "height": 960,
+    "license": "MIT",
+    "licenseFile": "assets/libraries/licenses/chrono.txt",
+    "sha256": "0261089f42d6d274c05b65b3afda4a87cd19102ef0d389bb6f55cead11ec0d0d"
+  },
+  {
+    "repo": "treeform/bitty",
+    "asset": null,
+    "source": null,
+    "commit": "e0d3307f3803b7684142fd170fb32f539e45c9dd",
+    "reason": "README has only a workflow badge and the repository contains no hero/banner/logo artwork."
+  },
+  {
+    "repo": "treeform/steganography",
+    "asset": "assets/libraries/steganography.png",
+    "source": "https://raw.githubusercontent.com/treeform/steganography/aea1cc1491b8f3229bd73f49906c6238c14b1523/tests/steganographyLogoEncoded.png",
+    "commit": "aea1cc1491b8f3229bd73f49906c6238c14b1523",
+    "reason": "Original image displayed at the top of the repository README, before the project heading.",
+    "width": 933,
+    "height": 343,
+    "license": "MIT",
+    "licenseFile": "assets/libraries/licenses/steganography.txt",
+    "sha256": "b570d01bcb3e2ffc64603974606e5d0ff9115171de9580098e7c9d4600e0af42"
+  },
+  {
+    "repo": "treeform/taggy",
+    "asset": null,
+    "source": null,
+    "commit": "e80ed1a806e871fd4ead4e0d3e9f6593569c0e38",
+    "reason": "No hero/banner/logo in README or repository image files. Keep existing icon."
+  },
+  {
+    "repo": "treeform/tabby",
+    "asset": null,
+    "source": null,
+    "commit": "7bbdbfba9cc80f5b017a3123f9dd29e5b0601c79",
+    "reason": "No hero/banner/logo in README or repository image files. Keep existing icon."
+  },
+  {
+    "repo": "guzba/crunchy",
+    "asset": null,
+    "source": null,
+    "commit": "98eb6526982bb8aae8eec6e8781f4539fa19e049",
+    "reason": "No hero/banner/logo in README or repository image files. Keep existing icon."
+  },
+  {
+    "repo": "treeform/genny",
+    "asset": "assets/libraries/genny.png",
+    "source": "https://raw.githubusercontent.com/treeform/genny/81d9659dfa1e11349336ee6f291a8ad083e44fd9/docs/gennyBanner.png",
+    "commit": "81d9659dfa1e11349336ee6f291a8ad083e44fd9",
+    "reason": "Original image displayed at the top of the repository README, before the project heading.",
+    "width": 1920,
+    "height": 960,
+    "license": "MIT",
+    "licenseFile": "assets/libraries/licenses/genny.txt",
+    "sha256": "bdc0462145ce22ec567a4d3479e64252b0699093451732be6f94d5e09936bc80"
+  },
+  {
+    "repo": "treeform/nimby",
+    "asset": "assets/libraries/nimby.png",
+    "source": "https://raw.githubusercontent.com/treeform/nimby/afe9c270d8498eade8ae9d50eb87879d61b4ac23/docs/nimbyLogo.png",
+    "commit": "afe9c270d8498eade8ae9d50eb87879d61b4ac23",
+    "reason": "Original image displayed at the top of the repository README, before the project heading.",
+    "width": 933,
+    "height": 343,
+    "license": "MIT",
+    "licenseFile": "assets/libraries/licenses/nimby.txt",
+    "sha256": "03903806a9547aa487b5e1990ef16a51cca9afbea0df5ab28420082909419a87"
+  },
+  {
+    "repo": "treeform/nimtemplate",
+    "asset": null,
+    "source": null,
+    "commit": "27c987d914c31fe0aa71a6651cfb83664b6dba17",
+    "reason": "No hero/banner/logo in README or repository image files. Keep existing icon."
+  },
+  {
+    "repo": "treeform/benchy",
+    "asset": null,
+    "source": null,
+    "commit": "6425417b578dc54008285aad020625b4b4f61f7b",
+    "reason": "No hero/banner/logo in README or repository image files. Keep existing icon."
+  },
+  {
+    "repo": "guzba/nimsimd",
+    "asset": null,
+    "source": null,
+    "commit": "dd27017fbfd1c6c00d37776a8f5d322bf6c5a83b",
+    "reason": "No hero/banner/logo in README or repository image files. Keep existing icon."
+  },
+  {
+    "repo": "treeform/pretty",
+    "asset": null,
+    "source": null,
+    "commit": "19bc560f0c7d8f8debf40640b64fa211872f8a66",
+    "reason": "README has only lower-page example screenshots, not a hero/banner/logo. Keep existing icon."
+  }
+]

@@ -1,0 +1,96 @@
+Library artwork
+
+These original hero images come from the public repositories listed below.
+Images are retained unchanged. Upstream MIT license notices are preserved
+in licenses/. Third-party logos retain their existing trademark rights.
+sources.json records exact source revisions and repositories using icons.
+
+treeform/pixie
+File: pixie.png
+Source: https://raw.githubusercontent.com/treeform/pixie/30bb510877f02cbf9643e4f904e33d1c90f7910f/docs/banner.png
+License: licenses/pixie.txt
+
+treeform/boxy
+File: boxy.png
+Source: https://raw.githubusercontent.com/treeform/boxy/d6ec494969084d7ebabd0fedea76ff28c74d6770/docs/banner.png
+License: licenses/boxy.txt
+
+treeform/fidget2
+File: fidget2.png
+Source: https://raw.githubusercontent.com/treeform/fidget2/92d56b62074d0fa45e967b8393352d799af2e51e/docs/banner.png
+License: licenses/fidget2.txt
+
+treeform/gltf
+File: gltf.png
+Source: https://raw.githubusercontent.com/treeform/gltf/adbf72a1dbfe797e5b87136cf9c1ad6665b222d9/docs/gltf.png
+License: licenses/gltf.txt
+
+treeform/chroma
+File: chroma.png
+Source: https://raw.githubusercontent.com/treeform/chroma/08b0d65590221bb964544fd9badf29a146b9091a/docs/chromaBanner.png
+License: licenses/chroma.txt
+
+treeform/vmath
+File: vmath.png
+Source: https://raw.githubusercontent.com/treeform/vmath/bc260143102153b76328783e1c76c96e52c52a4b/docs/banner.png
+License: licenses/vmath.txt
+
+treeform/metal4
+File: metal4.png
+Source: https://raw.githubusercontent.com/treeform/metal4/e9ef085d38cdc7abf3d89670f3eae1754595b9f9/docs/metal4.png
+License: licenses/metal4.txt
+
+treeform/vk14
+File: vk14.png
+Source: https://raw.githubusercontent.com/treeform/vk14/183cf440d6460d97c6b35d6346079d9982f8cd57/docs/vk14.png
+License: licenses/vk14.txt
+
+treeform/ogl46
+File: ogl46.png
+Source: https://raw.githubusercontent.com/treeform/ogl46/b78b6df7536d8b6cc3ac4bd36af6011184dd4562/docs/ogl46.png
+License: licenses/ogl46.txt
+
+treeform/dx12
+File: dx12.png
+Source: https://raw.githubusercontent.com/treeform/dx12/65049f4e2ec1acbbf1987bfa79817d472650c15e/docs/dx12.png
+License: licenses/dx12.txt
+
+treeform/ws
+File: ws.png
+Source: https://raw.githubusercontent.com/treeform/ws/c9c0c7b51e2e83cc9305a895a0b144a297b4bea8/docs/wsBanner.png
+License: licenses/ws.txt
+
+treeform/puppy
+File: puppy.png
+Source: https://raw.githubusercontent.com/treeform/puppy/584b2e914140ca199635b9dd137739de1500be36/docs/puppyBanner.png
+License: licenses/puppy.txt
+
+treeform/netty
+File: netty.png
+Source: https://raw.githubusercontent.com/treeform/netty/c9a76edaadc23d3cfd4c2410f04577d3913f8f2c/docs/nettyBanner.png
+License: licenses/netty.txt
+
+treeform/webby
+File: webby.png
+Source: https://raw.githubusercontent.com/treeform/webby/fe515be4ab5d02695289f88fca0d27f703a05599/docs/webbyBanner.png
+License: licenses/webby.txt
+
+treeform/chrono
+File: chrono.png
+Source: https://raw.githubusercontent.com/treeform/chrono/4684994775ad6d10ff73daca7492a4792965deb3/docs/chronoBanner.png
+License: licenses/chrono.txt
+
+treeform/steganography
+File: steganography.png
+Source: https://raw.githubusercontent.com/treeform/steganography/aea1cc1491b8f3229bd73f49906c6238c14b1523/tests/steganographyLogoEncoded.png
+License: licenses/steganography.txt
+
+treeform/genny
+File: genny.png
+Source: https://raw.githubusercontent.com/treeform/genny/81d9659dfa1e11349336ee6f291a8ad083e44fd9/docs/gennyBanner.png
+License: licenses/genny.txt
+
+treeform/nimby
+File: nimby.png
+Source: https://raw.githubusercontent.com/treeform/nimby/afe9c270d8498eade8ae9d50eb87879d61b4ac23/docs/nimbyLogo.png
+License: licenses/nimby.txt

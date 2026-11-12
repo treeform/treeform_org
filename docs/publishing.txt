@@ -57,8 +57,13 @@ in index.html.
 Update its name, description, destination, repository owner, and category.
 Keep the description in the title, data-search, and screen-reader text.
 Give the description a unique ID and update aria-describedby to match.
-Add its icon as a symbol in assets/icons.svg and reference that symbol
-with the project tile's use element. Move articles to change their order.
+Use the repository's hero image when it has one. Store the original image
+in assets/libraries/, record its source in sources.json and NOTICES.txt,
+and retain the upstream license in assets/libraries/licenses/. Copy an
+existing project-with-art article and update its image and dimensions.
+For libraries without hero artwork, add an icon to assets/icons.svg and
+reference that symbol with the project tile's use element. Move articles
+to change their order.
 Supported library categories are graphics, interfaces, networking, data,
 and tools. Search and category filters affect only the Libraries section.
 The catalog is ordinary HTML and remains readable without JavaScript.
