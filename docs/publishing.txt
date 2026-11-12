@@ -57,7 +57,8 @@ Keep the description in the title, data-search, and screen-reader text.
 Give the description a unique ID and update aria-describedby to match.
 Add its icon as a symbol in assets/icons.svg and reference that symbol
 with the project tile's use element. Move articles to change their order.
-Supported categories are graphics, interfaces, networking, data, and tools.
+Supported categories are graphics, interfaces, networking, data, games,
+and tools.
 The catalog is ordinary HTML and remains readable without JavaScript.
 
 Use relative asset and page links so the site can also work at a GitHub
@@ -65,7 +66,7 @@ Pages repository URL if the custom domain is removed.
 
 Update the videos
 
-The homepage lists the channel's videos as static links, newest first.
+The homepage lists talks and channel videos as static links, newest first.
 Copy a video-card link inside the video-grid to add another video. Update
 its YouTube URL, title, duration, and image. Save the original thumbnail
 in assets/videos/ and add its source to assets/videos/NOTICES.txt.

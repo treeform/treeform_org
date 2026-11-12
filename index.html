@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#101216">
   <title>Treeform · Projects</title>
-  <meta name="description" content="Programming videos, open-source Nim libraries, demos, and experiments by treeform and collaborators.">
+  <meta name="description" content="Programming videos, games, open-source Nim libraries, demos, and experiments by treeform and collaborators.">
   <link rel="stylesheet" href="assets/2001.css">
   <link rel="stylesheet" href="assets/styles.css">
   <script src="assets/projects.js" defer></script>
@@ -27,7 +27,7 @@
       <div class="wrap">
         <div class="directory-intro">
           <div>
-            <p class="eyebrow">Videos / Libraries / Experiments</p>
+            <p class="eyebrow">Videos / Games / Libraries</p>
             <h1 id="projects-title" class="program-label">Projects</h1>
           </div>
           <p>A collection of things I build.<br> Mostly Nim. Always something new to try.</p>
@@ -38,6 +38,12 @@
             <a href="https://www.youtube.com/channel/UC1r0r_fciKYgF5cqC6rwdgw">Andre and Ryan Program on YouTube ↗</a>
           </div>
           <div class="video-grid">
+            <a class="video-card" href="https://www.youtube.com/watch?v=l--1YU1AOco">
+              <img src="assets/videos/l--1YU1AOco.jpg" alt="" width="1280" height="720" loading="eager" decoding="async">
+              <span class="video-play" aria-hidden="true"><svg viewBox="0 0 20 20" fill="currentColor"><path d="M5 2 17 10 5 18Z"/></svg></span>
+              <h3>treeform: Nim * AI (NimConf 2026)</h3>
+              <span class="video-meta">44:10 / YouTube ↗</span>
+            </a>
             <a class="video-card" href="https://www.youtube.com/watch?v=UFbffBIzEDc">
               <img src="assets/videos/UFbffBIzEDc.jpg" alt="" width="720" height="404" loading="eager" decoding="async">
               <span class="video-play" aria-hidden="true"><svg viewBox="0 0 20 20" fill="currentColor"><path d="M5 2 17 10 5 18Z"/></svg></span>
@@ -82,7 +88,7 @@
             </a>
           </div>
         </section>
-        <h2 id="projects" class="library-heading">Libraries &amp; tools</h2>
+        <h2 id="projects" class="library-heading">Libraries, games &amp; tools</h2>
         <div id="catalog-tools" class="catalog-tools" hidden>
           <div class="filters" role="group" aria-label="Filter projects by category">
             <button class="filter" data-category="all" aria-pressed="true">All</button>
@@ -90,10 +96,11 @@
             <button class="filter" data-category="graphics" aria-pressed="false">Graphics</button>
             <button class="filter" data-category="networking" aria-pressed="false">Networking</button>
             <button class="filter" data-category="data" aria-pressed="false">Data</button>
+            <button class="filter" data-category="games" aria-pressed="false">Games</button>
             <button class="filter" data-category="tools" aria-pressed="false">Tools</button>
           </div>
           <div class="search-tools">
-            <span id="project-count" class="count" role="status">42 projects</span>
+            <span id="project-count" class="count" role="status">43 projects</span>
             <label class="search">
               <span class="sr-only">Search projects</span>
               <input id="project-search" type="search" placeholder="Find a project…" autocomplete="off">
@@ -135,6 +142,16 @@
               <h2>Windy</h2>
               <span class="project-category">Interfaces</span>
               <span id="windy-description" class="sr-only">Window management, input, and platform integration for native games and applications. By treeform.</span>
+            </a>
+          </article>
+          <article class="project game-project" data-category="games" data-search="Angels Fall First The Second Antarean War multiplayer real-time strategy space fleet battles Panda3D third game I worked on treeform">
+            <a class="project-link" href="https://www.indiedb.com/games/angels-fall-first-the-second-antarean-war" title="The third game I worked on. A multiplayer real-time strategy game about commanding fleets in three-dimensional space battles." aria-describedby="second-antarean-war-description">
+              <img class="game-art" src="assets/games/second-antarean-war-ships.png" alt="" width="1599" height="557" loading="lazy" decoding="async">
+              <span class="tile-arrow" aria-hidden="true">↗</span>
+              <h2>Angels Fall First</h2>
+              <span class="game-subtitle">The Second Antarean War</span>
+              <span class="project-category">Games</span>
+              <span id="second-antarean-war-description" class="sr-only">The third game I worked on. A multiplayer real-time strategy game about commanding fleets in three-dimensional space battles.</span>
             </a>
           </article>
           <article class="project" data-category="interfaces" data-search="Cross-platform native interfaces that can load designs directly from Figma. treeform fidget2">

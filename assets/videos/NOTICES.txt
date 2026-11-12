@@ -1,6 +1,7 @@
 Video thumbnails
 
-Original YouTube thumbnails from the Andre and Ryan Program channel.
+Original YouTube thumbnails from Andre and Ryan Program and the
+Nim Programming Language channel.
 Source: https://www.youtube.com/channel/UC1r0r_fciKYgF5cqC6rwdgw
 The thumbnails are used to link to the original videos. The website MIT
 license does not relicense the videos or their thumbnail artwork.
@@ -32,3 +33,7 @@ https://www.youtube.com/watch?v=bqB8oPeSx_o
 oUB0BGsNY5g.jpg
 GPU Gaussian Blur in Nim using Boxy and Shady
 https://www.youtube.com/watch?v=oUB0BGsNY5g
+
+l--1YU1AOco.jpg
+treeform: Nim * AI (NimConf 2026)
+https://www.youtube.com/watch?v=l--1YU1AOco
