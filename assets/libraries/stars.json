@@ -1,0 +1,215 @@
+{
+  "fetchedAt": "2026-11-12T22:12:39.822Z",
+  "repositories": [
+    {
+      "repo": "treeform/silky",
+      "stars": 42,
+      "url": "https://github.com/treeform/silky"
+    },
+    {
+      "repo": "treeform/pixie",
+      "stars": 814,
+      "url": "https://github.com/treeform/pixie"
+    },
+    {
+      "repo": "treeform/boxy",
+      "stars": 115,
+      "url": "https://github.com/treeform/boxy"
+    },
+    {
+      "repo": "treeform/windy",
+      "stars": 139,
+      "url": "https://github.com/treeform/windy"
+    },
+    {
+      "repo": "treeform/fidget2",
+      "stars": 40,
+      "url": "https://github.com/treeform/fidget2"
+    },
+    {
+      "repo": "treeform/shady",
+      "stars": 200,
+      "url": "https://github.com/treeform/shady"
+    },
+    {
+      "repo": "treeform/orbits",
+      "stars": 56,
+      "url": "https://github.com/treeform/orbits"
+    },
+    {
+      "repo": "treeform/gltf",
+      "stars": 7,
+      "url": "https://github.com/treeform/gltf"
+    },
+    {
+      "repo": "treeform/chroma",
+      "stars": 110,
+      "url": "https://github.com/treeform/chroma"
+    },
+    {
+      "repo": "treeform/spacy",
+      "stars": 75,
+      "url": "https://github.com/treeform/spacy"
+    },
+    {
+      "repo": "treeform/bumpy",
+      "stars": 47,
+      "url": "https://github.com/treeform/bumpy"
+    },
+    {
+      "repo": "treeform/vmath",
+      "stars": 116,
+      "url": "https://github.com/treeform/vmath"
+    },
+    {
+      "repo": "treeform/metal4",
+      "stars": 5,
+      "url": "https://github.com/treeform/metal4"
+    },
+    {
+      "repo": "treeform/vk14",
+      "stars": 11,
+      "url": "https://github.com/treeform/vk14"
+    },
+    {
+      "repo": "treeform/ogl46",
+      "stars": 4,
+      "url": "https://github.com/treeform/ogl46"
+    },
+    {
+      "repo": "treeform/dx12",
+      "stars": 2,
+      "url": "https://github.com/treeform/dx12"
+    },
+    {
+      "repo": "treeform/slappy",
+      "stars": 50,
+      "url": "https://github.com/treeform/slappy"
+    },
+    {
+      "repo": "guzba/mummy",
+      "stars": 343,
+      "url": "https://github.com/guzba/mummy"
+    },
+    {
+      "repo": "treeform/ws",
+      "stars": 266,
+      "url": "https://github.com/treeform/ws"
+    },
+    {
+      "repo": "treeform/puppy",
+      "stars": 202,
+      "url": "https://github.com/treeform/puppy"
+    },
+    {
+      "repo": "treeform/netty",
+      "stars": 131,
+      "url": "https://github.com/treeform/netty"
+    },
+    {
+      "repo": "treeform/webby",
+      "stars": 44,
+      "url": "https://github.com/treeform/webby"
+    },
+    {
+      "repo": "guzba/ready",
+      "stars": 47,
+      "url": "https://github.com/guzba/ready"
+    },
+    {
+      "repo": "guzba/whisky",
+      "stars": 19,
+      "url": "https://github.com/guzba/whisky"
+    },
+    {
+      "repo": "guzba/curly",
+      "stars": 63,
+      "url": "https://github.com/guzba/curly"
+    },
+    {
+      "repo": "guzba/jwtea",
+      "stars": 32,
+      "url": "https://github.com/guzba/jwtea"
+    },
+    {
+      "repo": "treeform/jsony",
+      "stars": 299,
+      "url": "https://github.com/treeform/jsony"
+    },
+    {
+      "repo": "guzba/zippy",
+      "stars": 283,
+      "url": "https://github.com/guzba/zippy"
+    },
+    {
+      "repo": "treeform/flatty",
+      "stars": 96,
+      "url": "https://github.com/treeform/flatty"
+    },
+    {
+      "repo": "guzba/supersnappy",
+      "stars": 94,
+      "url": "https://github.com/guzba/supersnappy"
+    },
+    {
+      "repo": "treeform/chrono",
+      "stars": 83,
+      "url": "https://github.com/treeform/chrono"
+    },
+    {
+      "repo": "treeform/bitty",
+      "stars": 13,
+      "url": "https://github.com/treeform/bitty"
+    },
+    {
+      "repo": "treeform/steganography",
+      "stars": 43,
+      "url": "https://github.com/treeform/steganography"
+    },
+    {
+      "repo": "treeform/taggy",
+      "stars": 33,
+      "url": "https://github.com/treeform/taggy"
+    },
+    {
+      "repo": "treeform/tabby",
+      "stars": 23,
+      "url": "https://github.com/treeform/tabby"
+    },
+    {
+      "repo": "guzba/crunchy",
+      "stars": 42,
+      "url": "https://github.com/guzba/crunchy"
+    },
+    {
+      "repo": "treeform/genny",
+      "stars": 244,
+      "url": "https://github.com/treeform/genny"
+    },
+    {
+      "repo": "treeform/nimby",
+      "stars": 44,
+      "url": "https://github.com/treeform/nimby"
+    },
+    {
+      "repo": "treeform/nimtemplate",
+      "stars": 123,
+      "url": "https://github.com/treeform/nimtemplate"
+    },
+    {
+      "repo": "treeform/benchy",
+      "stars": 59,
+      "url": "https://github.com/treeform/benchy"
+    },
+    {
+      "repo": "guzba/nimsimd",
+      "stars": 96,
+      "url": "https://github.com/guzba/nimsimd"
+    },
+    {
+      "repo": "treeform/pretty",
+      "stars": 58,
+      "url": "https://github.com/treeform/pretty"
+    }
+  ]
+}

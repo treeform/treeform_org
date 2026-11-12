@@ -68,6 +68,17 @@ Supported library categories are graphics, interfaces, networking, data,
 and tools. Search and category filters affect only the Libraries section.
 The catalog is ordinary HTML and remains readable without JavaScript.
 
+Each library card shows its GitHub star count next to its category. Counts
+are saved in the HTML and assets/libraries/stars.json. To refresh them,
+sign in to the GitHub CLI and run:
+
+  node tools/update_stars.mjs
+
+The command fetches all counts in one GitHub query. Commit and push the
+updated files to publish them. New cards need a project-stars span with
+data-repo set to owner/repository. Visitors do not need to contact GitHub
+to see the counts. Hover over a count to see its last update date.
+
 To add a game, copy a game article inside the games section. Update its
 name, description, link, and artwork. Keep game images in assets/games/
 and record their source in assets/games/NOTICES.txt.

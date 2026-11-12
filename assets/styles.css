@@ -313,6 +313,23 @@ main > section.directory { padding-block: 44px 32px; }
   box-shadow: none;
 }
 .project-category { color: var(--muted); font-size: 12px; }
+.project-meta {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 4px 12px;
+  padding-inline: 8px;
+}
+.project-stars {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  color: #e8ca8b;
+  font-size: 12px;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
 .tile-arrow { position: absolute; right: 15px; top: 9px; color: var(--muted); font-size: 18px; }
 .tile-badge { position: absolute; left: 12px; top: 12px; font: 10px/1.2 "IBM Plex Mono", monospace; text-transform: uppercase; letter-spacing: .06em; color: #baddf3; }
 .games-grid {
