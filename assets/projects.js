@@ -1,13 +1,13 @@
-const Search = document.querySelector("#project-search"),
-  Filters = [...document.querySelectorAll(".filter")],
-  Projects = [...document.querySelectorAll(".project")],
-  Count = document.querySelector("#project-count"),
-  Empty = document.querySelector("#empty-state");
+const Search = document.querySelector("#libraries #project-search"),
+  Filters = [...document.querySelectorAll("#libraries .filter")],
+  Projects = [...document.querySelectorAll("#libraries .project")],
+  Count = document.querySelector("#libraries #project-count"),
+  Empty = document.querySelector("#libraries #empty-state");
 
-/** Filter the existing HTML so projects also work without JavaScript. */
+/** Filter the existing HTML so libraries also work without JavaScript. */
 function filterProjects() {
   const Query = Search.value.trim().toLowerCase(),
-    Category = document.querySelector('.filter[aria-pressed="true"]')
+    Category = document.querySelector('#libraries .filter[aria-pressed="true"]')
       .dataset.category;
   let visible = 0;
   for (const project of Projects) {
@@ -21,8 +21,8 @@ function filterProjects() {
     }
   }
   Count.textContent = visible === Projects.length
-    ? `${Projects.length} projects`
-    : `${visible} of ${Projects.length} projects`;
+    ? `${Projects.length} libraries`
+    : `${visible} of ${Projects.length} libraries`;
   Empty.hidden = visible > 0;
 }
 for (const filter of Filters) {
@@ -34,10 +34,10 @@ for (const filter of Filters) {
   });
 }
 Search.addEventListener("input", filterProjects);
-document.querySelector("#clear-search").addEventListener("click", () => {
+document.querySelector("#libraries #clear-search").addEventListener("click", () => {
   Search.value = "";
   Filters[0].click();
   Search.focus();
 });
-document.querySelector("#catalog-tools").hidden = false;
+document.querySelector("#libraries #catalog-tools").hidden = false;
 filterProjects();

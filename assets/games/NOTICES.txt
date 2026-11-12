@@ -8,3 +8,17 @@ The screenshot was posted by treeform on February 10, 2013, with the title
 "Working to get most ships setup for gameplay." The original screenshot
 and icon are retained unchanged. No separate image license was supplied on
 the source page. Game artwork is excluded from the site's MIT license.
+
+Istrolid
+
+Project: https://store.steampowered.com/app/449140/
+Artwork: https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/449140/header.jpg?t=1615081242
+Original Steam store header artwork, retained unchanged. Game artwork
+is excluded from the site's MIT license.
+
+Angels Fall First
+
+Project: https://store.steampowered.com/app/367270/
+Artwork: https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/367270/fa7defd4ca90f5f306de47576a3424d8006d12f5/header.jpg?t=1783807186
+Original Steam store header artwork, retained unchanged. Game artwork
+is excluded from the site's MIT license.

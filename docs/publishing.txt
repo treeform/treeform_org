@@ -51,15 +51,21 @@ Create a directory such as project-name/ and put its index.html and assets
 inside. It will be served at https://treeform.org/project-name/. Other static
 files can be stored at any path and linked directly.
 
-To list a project on the home page, copy an existing article in index.html.
+The homepage has separate Videos, Games, and Libraries sections, in that
+order. To add a library, copy a project article inside the libraries section
+in index.html.
 Update its name, description, destination, repository owner, and category.
 Keep the description in the title, data-search, and screen-reader text.
 Give the description a unique ID and update aria-describedby to match.
 Add its icon as a symbol in assets/icons.svg and reference that symbol
 with the project tile's use element. Move articles to change their order.
-Supported categories are graphics, interfaces, networking, data, games,
-and tools.
+Supported library categories are graphics, interfaces, networking, data,
+and tools. Search and category filters affect only the Libraries section.
 The catalog is ordinary HTML and remains readable without JavaScript.
+
+To add a game, copy a game article inside the games section. Update its
+name, description, link, and artwork. Keep game images in assets/games/
+and record their source in assets/games/NOTICES.txt.
 
 Use relative asset and page links so the site can also work at a GitHub
 Pages repository URL if the custom domain is removed.
