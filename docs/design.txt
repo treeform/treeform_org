@@ -1,0 +1,20 @@
+Design sources
+
+assets/2001.css is copied from the existing offstream/2001/2001.css theme.
+Only its Google Fonts import is replaced with the local fonts.css import.
+The Microgramma font is copied from that theme's fonts directory.
+Its embedded copyright is recorded in NOTICE, separate from the site license.
+IBM Plex Sans and Mono are self-hosted copies of the Google Fonts files
+requested by the original theme. Their OFL notice is in assets/fonts/.
+
+assets/styles.css adapts the theme to this site. Navigation, typography,
+section labels, and the Silky showcase layout follow the Polyworld engine
+reference at https://softmax-universe.github.io/polyworld-buff/engine/.
+
+The homepage is a four-column project grid, reducing to two columns on
+smaller screens. Project names, descriptions, and owners come from the
+local hobby/README.md. The first entries are ordered by hand.
+
+assets/icons.svg contains simple geometric pictograms for the projects.
+These are navigation icons for this site, not official project logos.
+Each symbol's ID matches its repository name.

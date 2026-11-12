@@ -1,0 +1,35 @@
+Silky browser demos
+
+Source: https://github.com/treeform/silky
+Original local bundles: silky/examples/emscripten/
+The basicwindow and calculator .js, .wasm and .data files are copied
+unchanged from the existing October 7, 2026 builds. The HTML wrappers,
+demo.css and demo.js belong to this website.
+
+Silky's README.md and silky.nimble declare MIT and identify Andre von
+Houck as the author. There is no standalone LICENSE file in that source
+checkout. licenses/Silky-MIT.txt records the declaration and MIT terms.
+The bundles contain the example PNG artwork supplied with Silky.
+No separate attribution or license files accompany those example PNGs.
+
+Each .data bundle contains IBMPlexSans-Regular.ttf. Its embedded notice is:
+Copyright 2018 IBM Corp. All rights reserved.
+The embedded license is SIL Open Font License 1.1. The complete upstream
+license, including the reserved font name Plex, is preserved at
+licenses/IBM-Plex-OFL.txt.
+Source: https://github.com/IBM/plex/blob/master/LICENSE.txt
+
+The licenses directory also preserves available local license texts for
+Pixie, Bumpy, Flatty, Nimsimd, Crunchy, Zippy, Jsony, OpenGL, Urlly, WS,
+Nim, Emscripten, musl and compiler-rt. The existing compiled bundles do
+not record exact dependency revisions. These license texts come from
+the installed source checkouts and Emscripten 6.0.1 distribution.
+
+Additional source package metadata declares MIT for Vmath, Chroma,
+Shady, Windy and Fluffy. These local source checkouts have no separate
+LICENSE files to preserve. Their upstream repositories are:
+https://github.com/treeform/vmath
+https://github.com/treeform/chroma
+https://github.com/treeform/shady
+https://github.com/treeform/windy
+https://github.com/treeform/fluffy

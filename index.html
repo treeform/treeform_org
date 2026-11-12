@@ -1,0 +1,450 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101216">
+  <title>Treeform · Projects</title>
+  <meta name="description" content="A collection of open-source Nim libraries, demos, and experiments by treeform and collaborators.">
+  <link rel="stylesheet" href="assets/2001.css">
+  <link rel="stylesheet" href="assets/styles.css">
+  <script src="assets/projects.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="wordmark" href="./" aria-label="treeform.org home"><svg viewBox="0 0 28 34" aria-hidden="true"><path d="M14 31V3M14 12 7 5M14 19 4 9M14 26 3 15M14 12l7-7M14 19 24 9M14 26l11-11"/></svg><span>Treeform <span class="muted">/ Projects</span></span></a>
+      <nav aria-label="Main navigation">
+        <a href="#projects" aria-current="page">Projects</a>
+        <a href="silky/">Silky</a>
+        <a href="https://github.com/treeform">GitHub ↗</a>
+      </nav>
+    </div>
+  </header>
+  <main id="main">
+    <section id="projects" class="directory" aria-labelledby="projects-title">
+      <div class="wrap">
+        <div class="directory-intro">
+          <div>
+            <p class="eyebrow">Libraries / Demos / Experiments</p>
+            <h1 id="projects-title" class="program-label">Projects</h1>
+          </div>
+          <p>A collection of things I build.<br> Mostly Nim. Always something new to try.</p>
+        </div>
+        <div id="catalog-tools" class="catalog-tools" hidden>
+          <div class="filters" role="group" aria-label="Filter projects by category">
+            <button class="filter" data-category="all" aria-pressed="true">All</button>
+            <button class="filter" data-category="interfaces" aria-pressed="false">Interfaces</button>
+            <button class="filter" data-category="graphics" aria-pressed="false">Graphics</button>
+            <button class="filter" data-category="networking" aria-pressed="false">Networking</button>
+            <button class="filter" data-category="data" aria-pressed="false">Data</button>
+            <button class="filter" data-category="tools" aria-pressed="false">Tools</button>
+          </div>
+          <div class="search-tools">
+            <span id="project-count" class="count" role="status">42 projects</span>
+            <label class="search">
+              <span class="sr-only">Search projects</span>
+              <input id="project-search" type="search" placeholder="Find a project…" autocomplete="off">
+            </label>
+          </div>
+        </div>
+        <div class="projects">
+          <article class="project featured-project" data-category="interfaces" data-search="A fast immediate mode GUI with an idiomatic Nim API and atlas-based rendering. treeform silky">
+            <a class="project-link" href="silky/" title="A fast immediate mode GUI with an idiomatic Nim API and atlas-based rendering." aria-describedby="silky-description">
+              <span class="tile-badge">Featured</span><span class="tile-arrow" aria-hidden="true">→</span>
+              <span class="project-icon"><svg viewBox="0 0 64 64" aria-hidden="true"><use href="assets/icons.svg#silky"/></svg></span>
+              <h2>Silky</h2>
+              <span class="project-category">Interfaces</span>
+              <span id="silky-description" class="sr-only">A fast immediate mode GUI with an idiomatic Nim API and atlas-based rendering. By treeform.</span>
+            </a>
+          </article>
+          <article class="project" data-category="graphics" data-search="A pure Nim 2D graphics library for images, paths, text, and pixel-perfect rendering. treeform pixie">
+            <a class="project-link" href="https://github.com/treeform/pixie" title="A pure Nim 2D graphics library for images, paths, text, and pixel-perfect rendering." aria-describedby="pixie-description">
+              <span class="tile-arrow" aria-hidden="true">↗</span>
+              <span class="project-icon"><svg viewBox="0 0 64 64" aria-hidden="true"><use href="assets/icons.svg#pixie"/></svg></span>
+              <h2>Pixie</h2>
+              <span class="project-category">Graphics</span>
+              <span id="pixie-description" class="sr-only">A pure Nim 2D graphics library for images, paths, text, and pixel-perfect rendering. By treeform.</span>
+            </a>
+          </article>
+          <article class="project" data-category="graphics" data-search="An easy-to-use 2D GPU rendering API built on top of Pixie. treeform boxy">
+            <a class="project-link" href="https://github.com/treeform/boxy" title="An easy-to-use 2D GPU rendering API built on top of Pixie." aria-describedby="boxy-description">
+              <span class="tile-arrow" aria-hidden="true">↗</span>
+              <span class="project-icon"><svg viewBox="0 0 64 64" aria-hidden="true"><use href="assets/icons.svg#boxy"/></svg></span>
+              <h2>Boxy</h2>
+              <span class="project-category">Graphics</span>
+              <span id="boxy-description" class="sr-only">An easy-to-use 2D GPU rendering API built on top of Pixie. By treeform.</span>
+            </a>
+          </article>
+          <article class="project" data-category="interfaces" data-search="Window management, input, and platform integration for native games and applications. treeform windy">
+            <a class="project-link" href="https://github.com/treeform/windy" title="Window management, input, and platform integration for native games and applications." aria-describedby="windy-description">
+              <span class="tile-arrow" aria-hidden="true">↗</span>
+              <span class="project-icon"><svg viewBox="0 0 64 64" aria-hidden="true"><use href="assets/icons.svg#windy"/></svg></span>
+              <h2>Windy</h2>
+              <span class="project-category">Interfaces</span>
+              <span id="windy-description" class="sr-only">Window management, input, and platform integration for native games and applications. By treeform.</span>
+            </a>
+          </article>
+          <article class="project" data-category="interfaces" data-search="Cross-platform native interfaces that can load designs directly from Figma. treeform fidget2">
+            <a class="project-link" href="https://github.com/treeform/fidget2" title="Cross-platform native interfaces that can load designs directly from Figma." aria-describedby="fidget2-description">
+              <span class="tile-arrow" aria-hidden="true">↗</span>
+              <span class="project-icon"><svg viewBox="0 0 64 64" aria-hidden="true"><use href="assets/icons.svg#fidget2"/></svg></span>
+              <h2>Fidget 2</h2>
+              <span class="project-category">Interfaces</span>
+              <span id="fidget2-description" class="sr-only">Cross-platform native interfaces that can load designs directly from Figma. By treeform.</span>
+            </a>
+          </article>
+          <article class="project" data-category="graphics" data-search="Write GPU shaders in Nim and compile them to GPU shader languages. treeform shady">
+            <a class="project-link" href="https://github.com/treeform/shady" title="Write GPU shaders in Nim and compile them to GPU shader languages." aria-describedby="shady-description">
+              <span class="tile-arrow" aria-hidden="true">↗</span>
+              <span class="project-icon"><svg viewBox="0 0 64 64" aria-hidden="true"><use href="assets/icons.svg#shady"/></svg></span>
+              <h2>Shady</h2>
+              <span class="project-category">Graphics</span>
+              <span id="shady-description" class="sr-only">Write GPU shaders in Nim and compile them to GPU shader languages. By treeform.</span>
+            </a>
+          </article>
+          <article class="project" data-category="graphics" data-search="Orbital mechanics, astrometry, and spacecraft trajectory tools for Nim. treeform orbits">
+            <a class="project-link" href="https://github.com/treeform/orbits" title="Orbital mechanics, astrometry, and spacecraft trajectory tools for Nim." aria-describedby="orbits-description">
+              <span class="tile-arrow" aria-hidden="true">↗</span>
+              <span class="project-icon"><svg viewBox="0 0 64 64" aria-hidden="true"><use href="assets/icons.svg#orbits"/></svg></span>
+              <h2>Orbits</h2>
+              <span class="project-category">Graphics</span>
+              <span id="orbits-description" class="sr-only">Orbital mechanics, astrometry, and spacecraft trajectory tools for Nim. By treeform.</span>
+            </a>
+          </article>
+          <article class="project" data-category="graphics" data-search="A glTF 3D asset library with a viewer for rendering and tooling experiments. treeform gltf">
+            <a class="project-link" href="https://github.com/treeform/gltf" title="A glTF 3D asset library with a viewer for rendering and tooling experiments." aria-describedby="gltf-description">
+              <span class="tile-arrow" aria-hidden="true">↗</span>
+              <span class="project-icon"><svg viewBox="0 0 64 64" aria-hidden="true"><use href="assets/icons.svg#gltf"/></svg></span>
+              <h2>gltf</h2>
+              <span class="project-category">Graphics</span>
+              <span id="gltf-description" class="sr-only">A glTF 3D asset library with a viewer for rendering and tooling experiments. By treeform.</span>
+            </a>
+          </article>
+          <article class="project" data-category="graphics" data-search="Color types, conversions, and utilities for working with color. treeform chroma">
+            <a class="project-link" href="https://github.com/treeform/chroma" title="Color types, conversions, and utilities for working with color." aria-describedby="chroma-description">
+              <span class="tile-arrow" aria-hidden="true">↗</span>
+              <span class="project-icon"><svg viewBox="0 0 64 64" aria-hidden="true"><use href="assets/icons.svg#chroma"/></svg></span>
+              <h2>Chroma</h2>
+              <span class="project-category">Graphics</span>
+              <span id="chroma-description" class="sr-only">Color types, conversions, and utilities for working with color. By treeform.</span>
+            </a>
+          </article>
+          <article class="project" data-category="graphics" data-search="Spatial data structures that accelerate proximity queries for games and graphics. treeform spacy">
+            <a class="project-link" href="https://github.com/treeform/spacy" title="Spatial data structures that accelerate proximity queries for games and graphics." aria-describedby="spacy-description">
+              <span class="tile-arrow" aria-hidden="true">↗</span>
+              <span class="project-icon"><svg viewBox="0 0 64 64" aria-hidden="true"><use href="assets/icons.svg#spacy"/></svg></span>
+              <h2>Spacy</h2>
+              <span class="project-category">Graphics</span>
+              <span id="spacy-description" class="sr-only">Spatial data structures that accelerate proximity queries for games and graphics. By treeform.</span>
+            </a>
+          </article>
+          <article class="project" data-category="graphics" data-search="2D intersection tests for points, circles, rectangles, segments, and polygons. treeform bumpy">
+            <a class="project-link" href="https://github.com/treeform/bumpy" title="2D intersection tests for points, circles, rectangles, segments, and polygons." aria-describedby="bumpy-description">
+              <span class="tile-arrow" aria-hidden="true">↗</span>
+              <span class="project-icon"><svg viewBox="0 0 64 64" aria-hidden="true"><use href="assets/icons.svg#bumpy"/></svg></span>
+              <h2>Bumpy</h2>
+              <span class="project-category">Graphics</span>
+              <span id="bumpy-description" class="sr-only">2D intersection tests for points, circles, rectangles, segments, and polygons. By treeform.</span>
+            </a>
+          </article>
+          <article class="project" data-category="graphics" data-search="GLSL-style vector and matrix mathematics for 2D and 3D graphics. treeform vmath">
+            <a class="project-link" href="https://github.com/treeform/vmath" title="GLSL-style vector and matrix mathematics for 2D and 3D graphics." aria-describedby="vmath-description">
+              <span class="tile-arrow" aria-hidden="true">↗</span>
+              <span class="project-icon"><svg viewBox="0 0 64 64" aria-hidden="true"><use href="assets/icons.svg#vmath"/></svg></span>
+              <h2>VMath</h2>
+              <span class="project-category">Graphics</span>
+              <span id="vmath-description" class="sr-only">GLSL-style vector and matrix mathematics for 2D and 3D graphics. By treeform.</span>
+            </a>
+          </article>
+          <article class="project" data-category="graphics" data-search="Metal 4 bindings for Nim on macOS. treeform metal4">
+            <a class="project-link" href="https://github.com/treeform/metal4" title="Metal 4 bindings for Nim on macOS." aria-describedby="metal4-description">
+              <span class="tile-arrow" aria-hidden="true">↗</span>
+              <span class="project-icon"><svg viewBox="0 0 64 64" aria-hidden="true"><use href="assets/icons.svg#metal4"/></svg></span>
+              <h2>metal4</h2>
+              <span class="project-category">Graphics</span>
+              <span id="metal4-description" class="sr-only">Metal 4 bindings for Nim on macOS. By treeform.</span>
+            </a>
+          </article>
+          <article class="project" data-category="graphics" data-search="A cross-platform Vulkan 1.4 wrapper for Nim. treeform vk14">
+            <a class="project-link" href="https://github.com/treeform/vk14" title="A cross-platform Vulkan 1.4 wrapper for Nim." aria-describedby="vk14-description">
+              <span class="tile-arrow" aria-hidden="true">↗</span>
+              <span class="project-icon"><svg viewBox="0 0 64 64" aria-hidden="true"><use href="assets/icons.svg#vk14"/></svg></span>
+              <h2>vk14</h2>
+              <span class="project-category">Graphics</span>
+              <span id="vk14-description" class="sr-only">A cross-platform Vulkan 1.4 wrapper for Nim. By treeform.</span>
+            </a>
+          </article>
+          <article class="project" data-category="graphics" data-search="A cross-platform OpenGL 4.6 Direct State Access wrapper for Nim. treeform ogl46">
+            <a class="project-link" href="https://github.com/treeform/ogl46" title="A cross-platform OpenGL 4.6 Direct State Access wrapper for Nim." aria-describedby="ogl46-description">
+              <span class="tile-arrow" aria-hidden="true">↗</span>
+              <span class="project-icon"><svg viewBox="0 0 64 64" aria-hidden="true"><use href="assets/icons.svg#ogl46"/></svg></span>
+              <h2>ogl46</h2>
+              <span class="project-category">Graphics</span>
+              <span id="ogl46-description" class="sr-only">A cross-platform OpenGL 4.6 Direct State Access wrapper for Nim. By treeform.</span>
+            </a>
+          </article>
+          <article class="project" data-category="graphics" data-search="A DirectX 12 wrapper for Nim on Windows. treeform dx12">
+            <a class="project-link" href="https://github.com/treeform/dx12" title="A DirectX 12 wrapper for Nim on Windows." aria-describedby="dx12-description">
+              <span class="tile-arrow" aria-hidden="true">↗</span>
+              <span class="project-icon"><svg viewBox="0 0 64 64" aria-hidden="true"><use href="assets/icons.svg#dx12"/></svg></span>
+              <h2>dx12</h2>
+              <span class="project-category">Graphics</span>
+              <span id="dx12-description" class="sr-only">A DirectX 12 wrapper for Nim on Windows. By treeform.</span>
+            </a>
+          </article>
+          <article class="project" data-category="interfaces" data-search="A 3D sound API with audio loading, positional sound, and listener controls. treeform slappy">
+            <a class="project-link" href="https://github.com/treeform/slappy" title="A 3D sound API with audio loading, positional sound, and listener controls." aria-describedby="slappy-description">
+              <span class="tile-arrow" aria-hidden="true">↗</span>
+              <span class="project-icon"><svg viewBox="0 0 64 64" aria-hidden="true"><use href="assets/icons.svg#slappy"/></svg></span>
+              <h2>Slappy</h2>
+              <span class="project-category">Interfaces</span>
+              <span id="slappy-description" class="sr-only">A 3D sound API with audio loading, positional sound, and listener controls. By treeform.</span>
+            </a>
+          </article>
+          <article class="project" data-category="networking" data-search="A multi-threaded HTTP and WebSocket server written entirely in Nim. guzba mummy">
+            <a class="project-link" href="https://github.com/guzba/mummy" title="A multi-threaded HTTP and WebSocket server written entirely in Nim." aria-describedby="mummy-description">
+              <span class="tile-arrow" aria-hidden="true">↗</span>
+              <span class="project-icon"><svg viewBox="0 0 64 64" aria-hidden="true"><use href="assets/icons.svg#mummy"/></svg></span>
+              <h2>Mummy</h2>
+              <span class="project-category">Networking</span>
+              <span id="mummy-description" class="sr-only">A multi-threaded HTTP and WebSocket server written entirely in Nim. By guzba.</span>
+            </a>
+          </article>
+          <article class="project" data-category="networking" data-search="A WebSocket client and server library with async support. treeform ws">
+            <a class="project-link" href="https://github.com/treeform/ws" title="A WebSocket client and server library with async support." aria-describedby="ws-description">
+              <span class="tile-arrow" aria-hidden="true">↗</span>
+              <span class="project-icon"><svg viewBox="0 0 64 64" aria-hidden="true"><use href="assets/icons.svg#ws"/></svg></span>
+              <h2>Ws</h2>
+              <span class="project-category">Networking</span>
+              <span id="ws-description" class="sr-only">A WebSocket client and server library with async support. By treeform.</span>
+            </a>
+          </article>
+          <article class="project" data-category="networking" data-search="Fetch resources over HTTP and HTTPS. treeform puppy">
+            <a class="project-link" href="https://github.com/treeform/puppy" title="Fetch resources over HTTP and HTTPS." aria-describedby="puppy-description">
+              <span class="tile-arrow" aria-hidden="true">↗</span>
+              <span class="project-icon"><svg viewBox="0 0 64 64" aria-hidden="true"><use href="assets/icons.svg#puppy"/></svg></span>
+              <h2>Puppy</h2>
+              <span class="project-category">Networking</span>
+              <span id="puppy-description" class="sr-only">Fetch resources over HTTP and HTTPS. By treeform.</span>
+            </a>
+          </article>
+          <article class="project" data-category="networking" data-search="Reliable UDP connections for Nim applications. treeform netty">
+            <a class="project-link" href="https://github.com/treeform/netty" title="Reliable UDP connections for Nim applications." aria-describedby="netty-description">
+              <span class="tile-arrow" aria-hidden="true">↗</span>
+              <span class="project-icon"><svg viewBox="0 0 64 64" aria-hidden="true"><use href="assets/icons.svg#netty"/></svg></span>
+              <h2>Netty</h2>
+              <span class="project-category">Networking</span>
+              <span id="netty-description" class="sr-only">Reliable UDP connections for Nim applications. By treeform.</span>
+            </a>
+          </article>
+          <article class="project" data-category="networking" data-search="Common HTTP types and utilities for URLs, headers, and query parameters. treeform webby">
+            <a class="project-link" href="https://github.com/treeform/webby" title="Common HTTP types and utilities for URLs, headers, and query parameters." aria-describedby="webby-description">
+              <span class="tile-arrow" aria-hidden="true">↗</span>
+              <span class="project-icon"><svg viewBox="0 0 64 64" aria-hidden="true"><use href="assets/icons.svg#webby"/></svg></span>
+              <h2>Webby</h2>
+              <span class="project-category">Networking</span>
+              <span id="webby-description" class="sr-only">Common HTTP types and utilities for URLs, headers, and query parameters. By treeform.</span>
+            </a>
+          </article>
+          <article class="project" data-category="networking" data-search="A Redis client designed for multi-threaded applications. guzba ready">
+            <a class="project-link" href="https://github.com/guzba/ready" title="A Redis client designed for multi-threaded applications." aria-describedby="ready-description">
+              <span class="tile-arrow" aria-hidden="true">↗</span>
+              <span class="project-icon"><svg viewBox="0 0 64 64" aria-hidden="true"><use href="assets/icons.svg#ready"/></svg></span>
+              <h2>Ready</h2>
+              <span class="project-category">Networking</span>
+              <span id="ready-description" class="sr-only">A Redis client designed for multi-threaded applications. By guzba.</span>
+            </a>
+          </article>
+          <article class="project" data-category="networking" data-search="A blocking WebSocket client for straightforward synchronous code. guzba whisky">
+            <a class="project-link" href="https://github.com/guzba/whisky" title="A blocking WebSocket client for straightforward synchronous code." aria-describedby="whisky-description">
+              <span class="tile-arrow" aria-hidden="true">↗</span>
+              <span class="project-icon"><svg viewBox="0 0 64 64" aria-hidden="true"><use href="assets/icons.svg#whisky"/></svg></span>
+              <h2>Whisky</h2>
+              <span class="project-category">Networking</span>
+              <span id="whisky-description" class="sr-only">A blocking WebSocket client for straightforward synchronous code. By guzba.</span>
+            </a>
+          </article>
+          <article class="project" data-category="networking" data-search="Pool and reuse libcurl handles for efficient HTTP requests. guzba curly">
+            <a class="project-link" href="https://github.com/guzba/curly" title="Pool and reuse libcurl handles for efficient HTTP requests." aria-describedby="curly-description">
+              <span class="tile-arrow" aria-hidden="true">↗</span>
+              <span class="project-icon"><svg viewBox="0 0 64 64" aria-hidden="true"><use href="assets/icons.svg#curly"/></svg></span>
+              <h2>Curly</h2>
+              <span class="project-category">Networking</span>
+              <span id="curly-description" class="sr-only">Pool and reuse libcurl handles for efficient HTTP requests. By guzba.</span>
+            </a>
+          </article>
+          <article class="project" data-category="networking" data-search="Create JSON Web Tokens in pure Nim without an OpenSSL dependency. guzba jwtea">
+            <a class="project-link" href="https://github.com/guzba/jwtea" title="Create JSON Web Tokens in pure Nim without an OpenSSL dependency." aria-describedby="jwtea-description">
+              <span class="tile-arrow" aria-hidden="true">↗</span>
+              <span class="project-icon"><svg viewBox="0 0 64 64" aria-hidden="true"><use href="assets/icons.svg#jwtea"/></svg></span>
+              <h2>JWTea</h2>
+              <span class="project-category">Networking</span>
+              <span id="jwtea-description" class="sr-only">Create JSON Web Tokens in pure Nim without an OpenSSL dependency. By guzba.</span>
+            </a>
+          </article>
+          <article class="project" data-category="data" data-search="Parse JSON directly into objects and serialize them with customizable hooks. treeform jsony">
+            <a class="project-link" href="https://github.com/treeform/jsony" title="Parse JSON directly into objects and serialize them with customizable hooks." aria-describedby="jsony-description">
+              <span class="tile-arrow" aria-hidden="true">↗</span>
+              <span class="project-icon"><svg viewBox="0 0 64 64" aria-hidden="true"><use href="assets/icons.svg#jsony"/></svg></span>
+              <h2>Jsony</h2>
+              <span class="project-category">Data</span>
+              <span id="jsony-description" class="sr-only">Parse JSON directly into objects and serialize them with customizable hooks. By treeform.</span>
+            </a>
+          </article>
+          <article class="project" data-category="data" data-search="DEFLATE, ZLIB, and GZIP compression with ZIP and tar archive support. guzba zippy">
+            <a class="project-link" href="https://github.com/guzba/zippy" title="DEFLATE, ZLIB, and GZIP compression with ZIP and tar archive support." aria-describedby="zippy-description">
+              <span class="tile-arrow" aria-hidden="true">↗</span>
+              <span class="project-icon"><svg viewBox="0 0 64 64" aria-hidden="true"><use href="assets/icons.svg#zippy"/></svg></span>
+              <h2>Zippy</h2>
+              <span class="project-category">Data</span>
+              <span id="zippy-description" class="sr-only">DEFLATE, ZLIB, and GZIP compression with ZIP and tar archive support. By guzba.</span>
+            </a>
+          </article>
+          <article class="project" data-category="data" data-search="Fast serialization and utilities for working with flat binary data. treeform flatty">
+            <a class="project-link" href="https://github.com/treeform/flatty" title="Fast serialization and utilities for working with flat binary data." aria-describedby="flatty-description">
+              <span class="tile-arrow" aria-hidden="true">↗</span>
+              <span class="project-icon"><svg viewBox="0 0 64 64" aria-hidden="true"><use href="assets/icons.svg#flatty"/></svg></span>
+              <h2>Flatty</h2>
+              <span class="project-category">Data</span>
+              <span id="flatty-description" class="sr-only">Fast serialization and utilities for working with flat binary data. By treeform.</span>
+            </a>
+          </article>
+          <article class="project" data-category="data" data-search="A small, dependency-free implementation of Snappy compression in pure Nim. guzba supersnappy">
+            <a class="project-link" href="https://github.com/guzba/supersnappy" title="A small, dependency-free implementation of Snappy compression in pure Nim." aria-describedby="supersnappy-description">
+              <span class="tile-arrow" aria-hidden="true">↗</span>
+              <span class="project-icon"><svg viewBox="0 0 64 64" aria-hidden="true"><use href="assets/icons.svg#supersnappy"/></svg></span>
+              <h2>SuperSnappy</h2>
+              <span class="project-category">Data</span>
+              <span id="supersnappy-description" class="sr-only">A small, dependency-free implementation of Snappy compression in pure Nim. By guzba.</span>
+            </a>
+          </article>
+          <article class="project" data-category="data" data-search="Timestamps, calendars, and time zones for Nim. treeform chrono">
+            <a class="project-link" href="https://github.com/treeform/chrono" title="Timestamps, calendars, and time zones for Nim." aria-describedby="chrono-description">
+              <span class="tile-arrow" aria-hidden="true">↗</span>
+              <span class="project-icon"><svg viewBox="0 0 64 64" aria-hidden="true"><use href="assets/icons.svg#chrono"/></svg></span>
+              <h2>Chrono</h2>
+              <span class="project-category">Data</span>
+              <span id="chrono-description" class="sr-only">Timestamps, calendars, and time zones for Nim. By treeform.</span>
+            </a>
+          </article>
+          <article class="project" data-category="data" data-search="Compact one- and two-dimensional bit arrays and operations. treeform bitty">
+            <a class="project-link" href="https://github.com/treeform/bitty" title="Compact one- and two-dimensional bit arrays and operations." aria-describedby="bitty-description">
+              <span class="tile-arrow" aria-hidden="true">↗</span>
+              <span class="project-icon"><svg viewBox="0 0 64 64" aria-hidden="true"><use href="assets/icons.svg#bitty"/></svg></span>
+              <h2>Bitty</h2>
+              <span class="project-category">Data</span>
+              <span id="bitty-description" class="sr-only">Compact one- and two-dimensional bit arrays and operations. By treeform.</span>
+            </a>
+          </article>
+          <article class="project" data-category="data" data-search="Encode and decode hidden data inside images. treeform steganography">
+            <a class="project-link" href="https://github.com/treeform/steganography" title="Encode and decode hidden data inside images." aria-describedby="steganography-description">
+              <span class="tile-arrow" aria-hidden="true">↗</span>
+              <span class="project-icon"><svg viewBox="0 0 64 64" aria-hidden="true"><use href="assets/icons.svg#steganography"/></svg></span>
+              <h2>Steganography</h2>
+              <span class="project-category">Data</span>
+              <span id="steganography-description" class="sr-only">Encode and decode hidden data inside images. By treeform.</span>
+            </a>
+          </article>
+          <article class="project" data-category="data" data-search="Parse and serialize HTML and XML, and generate static HTML and CSS. treeform taggy">
+            <a class="project-link" href="https://github.com/treeform/taggy" title="Parse and serialize HTML and XML, and generate static HTML and CSS." aria-describedby="taggy-description">
+              <span class="tile-arrow" aria-hidden="true">↗</span>
+              <span class="project-icon"><svg viewBox="0 0 64 64" aria-hidden="true"><use href="assets/icons.svg#taggy"/></svg></span>
+              <h2>Taggy</h2>
+              <span class="project-category">Data</span>
+              <span id="taggy-description" class="sr-only">Parse and serialize HTML and XML, and generate static HTML and CSS. By treeform.</span>
+            </a>
+          </article>
+          <article class="project" data-category="data" data-search="Parse CSV and TSV directly into Nim objects with customizable hooks. treeform tabby">
+            <a class="project-link" href="https://github.com/treeform/tabby" title="Parse CSV and TSV directly into Nim objects with customizable hooks." aria-describedby="tabby-description">
+              <span class="tile-arrow" aria-hidden="true">↗</span>
+              <span class="project-icon"><svg viewBox="0 0 64 64" aria-hidden="true"><use href="assets/icons.svg#tabby"/></svg></span>
+              <h2>Tabby</h2>
+              <span class="project-category">Data</span>
+              <span id="tabby-description" class="sr-only">Parse CSV and TSV directly into Nim objects with customizable hooks. By treeform.</span>
+            </a>
+          </article>
+          <article class="project" data-category="data" data-search="Pure Nim hashes and integrity checks, including SHA-256, CRC, and Adler-32. guzba crunchy">
+            <a class="project-link" href="https://github.com/guzba/crunchy" title="Pure Nim hashes and integrity checks, including SHA-256, CRC, and Adler-32." aria-describedby="crunchy-description">
+              <span class="tile-arrow" aria-hidden="true">↗</span>
+              <span class="project-icon"><svg viewBox="0 0 64 64" aria-hidden="true"><use href="assets/icons.svg#crunchy"/></svg></span>
+              <h2>Crunchy</h2>
+              <span class="project-category">Data</span>
+              <span id="crunchy-description" class="sr-only">Pure Nim hashes and integrity checks, including SHA-256, CRC, and Adler-32. By guzba.</span>
+            </a>
+          </article>
+          <article class="project" data-category="tools" data-search="Generate bindings that make Nim libraries available to other languages. treeform genny">
+            <a class="project-link" href="https://github.com/treeform/genny" title="Generate bindings that make Nim libraries available to other languages." aria-describedby="genny-description">
+              <span class="tile-arrow" aria-hidden="true">↗</span>
+              <span class="project-icon"><svg viewBox="0 0 64 64" aria-hidden="true"><use href="assets/icons.svg#genny"/></svg></span>
+              <h2>Genny</h2>
+              <span class="project-category">Tools</span>
+              <span id="genny-description" class="sr-only">Generate bindings that make Nim libraries available to other languages. By treeform.</span>
+            </a>
+          </article>
+          <article class="project" data-category="tools" data-search="An unofficial Nim package manager and installer with workspace and lockfile support. treeform nimby">
+            <a class="project-link" href="https://github.com/treeform/nimby" title="An unofficial Nim package manager and installer with workspace and lockfile support." aria-describedby="nimby-description">
+              <span class="tile-arrow" aria-hidden="true">↗</span>
+              <span class="project-icon"><svg viewBox="0 0 64 64" aria-hidden="true"><use href="assets/icons.svg#nimby"/></svg></span>
+              <h2>Nimby</h2>
+              <span class="project-category">Tools</span>
+              <span id="nimby-description" class="sr-only">An unofficial Nim package manager and installer with workspace and lockfile support. By treeform.</span>
+            </a>
+          </article>
+          <article class="project" data-category="tools" data-search="A starting point for a new Nim library or project. treeform nimtemplate">
+            <a class="project-link" href="https://github.com/treeform/nimtemplate" title="A starting point for a new Nim library or project." aria-describedby="nimtemplate-description">
+              <span class="tile-arrow" aria-hidden="true">↗</span>
+              <span class="project-icon"><svg viewBox="0 0 64 64" aria-hidden="true"><use href="assets/icons.svg#nimtemplate"/></svg></span>
+              <h2>Nim Template</h2>
+              <span class="project-category">Tools</span>
+              <span id="nimtemplate-description" class="sr-only">A starting point for a new Nim library or project. By treeform.</span>
+            </a>
+          </article>
+          <article class="project" data-category="tools" data-search="Simple benchmarking tools to measure the performance of your code. treeform benchy">
+            <a class="project-link" href="https://github.com/treeform/benchy" title="Simple benchmarking tools to measure the performance of your code." aria-describedby="benchy-description">
+              <span class="tile-arrow" aria-hidden="true">↗</span>
+              <span class="project-icon"><svg viewBox="0 0 64 64" aria-hidden="true"><use href="assets/icons.svg#benchy"/></svg></span>
+              <h2>Benchy</h2>
+              <span class="project-category">Tools</span>
+              <span id="benchy-description" class="sr-only">Simple benchmarking tools to measure the performance of your code. By treeform.</span>
+            </a>
+          </article>
+          <article class="project" data-category="tools" data-search="Convenient bindings for SIMD instructions. guzba nimsimd">
+            <a class="project-link" href="https://github.com/guzba/nimsimd" title="Convenient bindings for SIMD instructions." aria-describedby="nimsimd-description">
+              <span class="tile-arrow" aria-hidden="true">↗</span>
+              <span class="project-icon"><svg viewBox="0 0 64 64" aria-hidden="true"><use href="assets/icons.svg#nimsimd"/></svg></span>
+              <h2>NimSIMD</h2>
+              <span class="project-category">Tools</span>
+              <span id="nimsimd-description" class="sr-only">Convenient bindings for SIMD instructions. By guzba.</span>
+            </a>
+          </article>
+          <article class="project" data-category="tools" data-search="Print Nim objects with readable formatting and syntax highlighting. treeform pretty">
+            <a class="project-link" href="https://github.com/treeform/pretty" title="Print Nim objects with readable formatting and syntax highlighting." aria-describedby="pretty-description">
+              <span class="tile-arrow" aria-hidden="true">↗</span>
+              <span class="project-icon"><svg viewBox="0 0 64 64" aria-hidden="true"><use href="assets/icons.svg#pretty"/></svg></span>
+              <h2>Pretty</h2>
+              <span class="project-category">Tools</span>
+              <span id="pretty-description" class="sr-only">Print Nim objects with readable formatting and syntax highlighting. By treeform.</span>
+            </a>
+          </article>
+        </div>
+        <div id="empty-state" class="empty" hidden>
+          <p>No projects match this search.</p>
+          <button id="clear-search">Clear search and filters</button>
+        </div>
+        <p class="catalog-note">From the <a href="https://github.com/treeform/hobby">hobby collection</a>,
+          built with <a href="https://github.com/guzba">Guzba</a> and other contributors.
+          Select a project to explore.</p>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <p>Treeform &amp; friends. Built with Nim.</p>
+      <p><a href="https://github.com/treeform/hobby">The hobby collection ↗</a>
+        <span aria-hidden="true"> / </span><a href="https://github.com/guzba">Guzba ↗</a></p>
+    </div>
+  </footer>
+</body>
+</html>

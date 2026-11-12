@@ -1,0 +1,17 @@
+The site's original HTML, CSS, JavaScript, and SVG icons are licensed under
+the MIT license in LICENSE. Bundled third-party assets retain their own
+licenses and are not relicensed by this repository.
+
+IBM Plex fonts
+The fonts in assets/fonts/ibm-plex-*.ttf use the SIL Open Font License 1.1.
+See assets/fonts/OFL.txt.
+
+Microgramma font
+assets/fonts/microgramma-webfont.ttf was supplied with the existing 2001
+theme. Its embedded copyright reads "URW Software, Copyright 1994 by URW".
+No separate license was supplied with that font. It is excluded from this
+repository's MIT license.
+
+Silky browser demos
+See silky/demos/NOTICES.txt and silky/demos/licenses/ for the bundled
+examples, dependencies, fonts, and their license notices.

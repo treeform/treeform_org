@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101216">
+  <title>Silky · UI for Nim · Treeform</title>
+  <meta name="description" content="Silky is a fast immediate-mode UI library for Nim. Try real WebAssembly demos.">
+  <link rel="stylesheet" href="../assets/2001.css">
+  <link rel="stylesheet" href="../assets/styles.css">
+  <script src="../assets/demos.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="wordmark" href="../" aria-label="treeform.org home"><svg viewBox="0 0 28 34" aria-hidden="true"><path d="M14 31V3M14 12 7 5M14 19 4 9M14 26 3 15M14 12l7-7M14 19 24 9M14 26l11-11"/></svg><span>Treeform <span class="muted">/ Silky</span></span></a>
+      <nav aria-label="Main navigation">
+        <a href="../#projects">Projects</a>
+        <a href="./" aria-current="page">Silky</a>
+        <a href="https://github.com/treeform">GitHub ↗</a>
+      </nav>
+    </div>
+  </header>
+  <main id="main">
+    <section class="project-hero" aria-labelledby="silky-title">
+      <div class="wrap">
+        <div class="hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow">Silky / Immediate-mode UI</p>
+            <h1 id="silky-title">Fast UI.<br>Written in Nim.</h1>
+            <p>A UI library with a focus on speed. Build interfaces with
+              an idiomatic Nim API, a shared texture atlas, and scalable
+              9-patch elements.</p>
+            <div class="actions">
+              <a class="button primary" href="#demos">Try the demos ↓</a>
+              <a class="button" href="https://github.com/treeform/silky">Source on GitHub ↗</a>
+            </div>
+          </div>
+          <figure class="code-example">
+            <figcaption><span>hello.nim</span><span>Silky / UI snippet</span></figcaption>
+            <pre><code><span class="code-key">ui</span>:
+  text <span class="code-string">"hello"</span>:
+    characters <span class="code-string">"Hello Silky!"</span>
+  button <span class="code-string">"Click me"</span>:
+    <span class="code-key">echo</span> <span class="code-string">"Clicked!"</span></code></pre>
+          </figure>
+        </div>
+        <div class="facts" aria-label="Silky features">
+          <span>Immediate mode</span><span>Atlas-based rendering</span>
+          <span>9-patch support</span><span>MIT licensed</span>
+        </div>
+      </div>
+    </section>
+    <section id="demos" class="demo-section" aria-labelledby="demos-title">
+      <div class="wrap">
+        <p class="eyebrow">Live in your browser</p>
+        <div class="section-heading">
+          <h2 id="demos-title" class="program-label">Try Silky.</h2>
+          <p>Nim → WebAssembly → WebGL 2</p>
+        </div>
+        <div class="demo-bar">
+          <div id="demo-controls" class="demo-tabs" role="group" aria-label="Choose a demo" hidden>
+            <button class="demo-tab" data-demo="basicwindow" aria-pressed="true">Widget tour</button>
+            <button class="demo-tab" data-demo="calculator" aria-pressed="false">Calculator</button>
+          </div>
+          <a id="open-demo" class="text-link" href="demos/basicwindow.html" target="_blank" rel="noopener">Open demo in a new tab ↗</a>
+        </div>
+        <div class="demo-shell">
+          <p id="demo-status" class="demo-status" role="status">Loading the Silky demo…</p>
+          <iframe id="demo-frame" src="demos/basicwindow.html" title="Widget tour — interactive Silky demo" loading="lazy"></iframe>
+        </div>
+        <p class="demo-caption">Click inside the demo to interact. A keyboard and mouse work best.
+          <a id="demo-source" href="https://github.com/treeform/silky/tree/master/examples/basicwindow">Example source ↗</a></p>
+        <noscript><p>These demos require JavaScript.
+          <a href="demos/basicwindow.html">Widget tour</a> /
+          <a href="demos/calculator.html">Calculator</a>.</p></noscript>
+      </div>
+    </section>
+    <section class="about-section" aria-labelledby="about-title">
+      <div class="wrap detail-grid">
+        <div>
+          <p class="eyebrow">Made for Nim</p>
+          <h2 id="about-title">A small API.<br>Room to build.</h2>
+          <p>Silky takes inspiration from Dear ImGui and reimagines
+            immediate-mode UI in Nim. Describe your interface directly
+            in code with templates, conditions, and loops.</p>
+          <a href="https://github.com/treeform/silky#readme">Read the documentation ↗</a>
+        </div>
+        <div>
+          <h3>From a hello to your own app.</h3>
+          <p>The snippet above lives inside your frame loop. The
+            <a href="https://github.com/treeform/silky#getting-started">getting started example</a>
+            includes window creation, the atlas, and rendering setup.</p>
+          <ul>
+            <li>A shared texture atlas keeps rendering efficient.</li>
+            <li>9-patch assets let UI elements scale cleanly.</li>
+            <li>Multiple graphics backends share the same public API.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <p>Treeform &amp; friends. Built with Nim.</p>
+      <p><a href="https://github.com/treeform/hobby">The hobby collection ↗</a>
+        <span aria-hidden="true"> / </span><a href="https://github.com/guzba">Guzba ↗</a></p>
+    </div>
+  </footer>
+</body>
+</html>

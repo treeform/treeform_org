@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Try a calculator built with Silky, running as WebAssembly.">
+    <title>Silky calculator</title>
+    <link rel="stylesheet" href="demo.css">
+    <script src="demo.js" defer></script>
+  </head>
+  <body data-demo="calculator">
+    <canvas id="canvas" tabindex="0" aria-label="Interactive Silky calculator">
+      Your browser needs canvas support to run this demo.
+    </canvas>
+    <div id="status" class="status" role="status" aria-live="polite">
+      <h1 id="status-heading">Loading the calculator</h1>
+      <p id="status-detail">Starting the Silky WebAssembly app…</p>
+      <a id="reload" href="calculator.html" hidden>Reload demo</a>
+    </div>
+    <noscript>Enable JavaScript to try the Silky calculator.</noscript>
+  </body>
+</html>
