@@ -15,34 +15,35 @@ WebAssembly demos can load their .wasm and .data files.
 GitHub Pages
 
 Repository: https://github.com/treeform/treeform_org
-Website: https://treeform.github.io/treeform_org/
+Website: https://treeform.org/
 
 Pages publishes the main branch from /(root). Keep the empty .nojekyll
 file to publish static files directly. Push commits to main to publish
 updates. No custom Actions workflow or build tools are required.
 
-Connect treeform.org
+Domain configuration
 
-The custom domain is not enabled yet because it has no web DNS records.
-Keep CNAME out of the root until DNS setup is ready so the working GitHub
-Pages URL does not redirect visitors to an unavailable domain.
+GitHub Pages uses treeform.org as its custom domain. Keep the root CNAME
+file in the repository. The original GitHub Pages URL redirects here:
+https://treeform.github.io/treeform_org/
 
-1. In the repository's Settings > Pages, set the custom domain to
-   treeform.org. GitHub creates the root CNAME file automatically.
-   docs/CNAME.example contains the expected file contents.
-2. In Cloudflare DNS, create these DNS-only A records for @:
+Cloudflare DNS is configured with these DNS-only A records for @:
    185.199.108.153
    185.199.109.153
    185.199.110.153
    185.199.111.153
-3. Optionally add a DNS-only CNAME for www pointing to treeform.github.io.
-4. After DNS propagates and GitHub provisions a certificate, enable
-   Enforce HTTPS in Settings > Pages.
-5. Pull main locally to get GitHub's CNAME commit.
+The DNS-only CNAME for www points to treeform.github.io. Leave all five
+records DNS-only so GitHub can validate the domain and issue certificates.
+
+After DNS changes, allow cached lookups to expire. GitHub may take up to
+an hour to provision HTTPS. If certificate provisioning does not start,
+remove and re-add the custom domain in Settings > Pages, as described in
+GitHub's troubleshooting guide. Enable Enforce HTTPS once it is available.
+Pull main after changing the custom domain to sync GitHub's CNAME commits.
 
 The CNAME file alone does not configure DNS. GitHub's current custom-domain
 guide is linked below. Existing 404 links use the GitHub Pages URL, which
-redirects to the custom domain after it is connected.
+redirects to the custom domain.
 
 Add a project or static files
 
@@ -59,8 +60,8 @@ with the project tile's use element. Move articles to change their order.
 Supported categories are graphics, interfaces, networking, data, and tools.
 The catalog is ordinary HTML and remains readable without JavaScript.
 
-Use relative asset and page links so the site also works at a GitHub Pages
-repository URL before the custom domain is connected.
+Use relative asset and page links so the site can also work at a GitHub
+Pages repository URL if the custom domain is removed.
 
 Update the Silky demos
 
@@ -73,3 +74,4 @@ References
 https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site
 https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site
 https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site
+https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/troubleshooting-custom-domains-and-github-pages
