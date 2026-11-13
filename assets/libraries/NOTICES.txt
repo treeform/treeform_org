@@ -14,6 +14,9 @@ upstream library repositories. generated/prompts.json records the full
 prompt and destination for each image. Upstream license files in licenses/
 apply to the original images listed below, not the generated banners.
 
+Shady was revised using user-supplied Cornell box and shaded sphere
+images as environment and logo references.
+
 Original repository banners
 
 treeform/pixie

@@ -22,7 +22,21 @@
       "repo": "treeform/shady",
       "name": "Shady",
       "asset": "assets/libraries/generated/shady.png",
-      "prompt": "Use case: logo-brand. Asset type: a finished library banner for the treeform.org project grid. Use the supplied existing Pixie and VMath banners as STYLE AND COMPOSITION REFERENCES ONLY, not edit targets. Create new artwork with the same visual language: a rich photographic or tactile background filling the whole canvas and one clean, bold, white geometric emblem floating flat at its center, with a little translucency or restrained opacity variation. The emblem should be clear at thumbnail size, approximately half the canvas height and one quarter of its width. Use simple precise geometry, generous surrounding space, natural lighting and texture. Wide landscape 2:1 aspect ratio, ideally 1536x768. Keep the entire emblem in the central 50 percent of the width and central 70 percent of the height, safe for a centered crop. No wording, lettering, captions, labels, watermark, frames, border, black bars, interface mockup, collage, or multiple panels. Avoid generic glowing neon tech art and avoid turning the emblem into a physical 3D object. One complete banner only.\n\nProject concept: A GPU shader library. Background: striking angular slate mountain faces and sharply cast shadows in deep indigo and blue-grey, photographic mineral texture. Emblem: a triangular prism outline divided into a bright white face and a translucent face, simple and precise, suggesting light and shade."
+      "prompt": "Use case: compositing.\nAsset type: the Shady library hero banner for the existing treeform.org project grid.\nPrimary request: revise the existing Shady banner so its background looks like a Cornell box and its central logo looks like a shaded sphere.\nInput images: Image 1 is the current Shady banner, the edit target; use it to preserve the wide 2:1 composition, full-bleed background, central emblem scale and thumbnail readability. Image 2 is a reference for the Cornell box environment only. Image 3 is a reference for the round shaded sphere logo's tonal shading and glossy highlight only.\nReplace the mountain scenery with a clean, beautifully rendered Cornell box interior: matte red left wall, matte green right wall, pale neutral back wall and floor, a rectangular ceiling area light, soft contact shadows and subtle realistic red and green bounced light. Show the room head-on with clear perspective, filling the complete wide canvas. Keep the lighting restrained enough for a clear logo.\nReplace the triangular logo with ONE centered circular grayscale shaded sphere emblem, about 50 to 55 percent of the canvas height. It should read as a simple sphere logo at small card size: crisp circular silhouette, bright white and silver upper-left highlight, smooth gray shading into a charcoal lower-right edge, and a restrained broad glossy highlight, inspired by image 3. Keep the sphere predominantly neutral grayscale so it stands out from the red and green setting. Center it vertically and horizontally with generous room around it, like the original library mark. A sphere emblem over the rendered environment, not a collection of objects. Remove the original triangle completely.\nComposition invariants: one complete finished banner, exact 2:1 landscape aspect ratio, ideally 1774 by 887 pixels. Full-bleed artwork, no margins or letterboxing, emblem entirely inside the central 50 percent of the width and 70 percent of the height. No words, captions, lettering, watermarks, stock image credit, border, collage, or interface. Do not reproduce any text from the references.",
+      "references": [
+        {
+          "role": "edit target",
+          "description": "Previous Shady mountain and triangular emblem banner at commit 13a25fe."
+        },
+        {
+          "role": "environment reference",
+          "description": "User-supplied Cornell box photograph with a red left wall, green right wall, neutral interior, overhead light and three spheres."
+        },
+        {
+          "role": "logo reference",
+          "description": "User-supplied grayscale glossy shaded sphere, used for spherical shape and tonal shading."
+        }
+      ]
     },
     {
       "repo": "treeform/orbits",

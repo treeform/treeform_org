@@ -71,7 +71,7 @@
     "repo": "treeform/shady",
     "asset": "assets/libraries/generated/shady.png",
     "source": null,
-    "reason": "Generated for treeform.org to match the existing library banners.",
+    "reason": "Generated for treeform.org, revised with a Cornell box background and shaded sphere logo from user-supplied references.",
     "upstreamAudit": {
       "commit": "c899f7cd17dbe7021d6e3aa2908e6de6549c47f1",
       "reason": "README illustrations are shader examples, not a library hero; no dedicated banner/logo in tree."
@@ -81,7 +81,7 @@
     "prompts": "assets/libraries/generated/prompts.json",
     "width": 1774,
     "height": 887,
-    "sha256": "9879946a0bdb9500eec9bbf79a5d91f6de6db2f916a1a5eb1799d2a3bc369de0"
+    "sha256": "20bd17aecbcae48c39e38b5df344272c0e6558e2077de9095886269f0ca70969"
   },
   {
     "repo": "treeform/orbits",
