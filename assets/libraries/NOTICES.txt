@@ -1,9 +1,20 @@
 Library artwork
 
-These original hero images come from the public repositories listed below.
+The original hero images listed below come from public repositories.
 Images are retained unchanged. Upstream MIT license notices are preserved
 in licenses/. Third-party logos retain their existing trademark rights.
-sources.json records exact source revisions and repositories using icons.
+sources.json records source revisions and identifies generated artwork.
+
+Generated banners
+
+Images in generated/ were created for this site with OpenAI's built-in
+image generation tool, using the existing Pixie and VMath banners as
+style references. These are new site artwork, not images supplied by the
+upstream library repositories. generated/prompts.json records the full
+prompt and destination for each image. Upstream license files in licenses/
+apply to the original images listed below, not the generated banners.
+
+Original repository banners
 
 treeform/pixie
 File: pixie.png

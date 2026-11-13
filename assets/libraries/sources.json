@@ -1,10 +1,19 @@
 [
   {
     "repo": "treeform/silky",
-    "asset": null,
+    "asset": "assets/libraries/generated/silky.png",
     "source": null,
-    "commit": "1b63e76c43e316daff78ecb2147c128a482e5402",
-    "reason": "README has no artwork; image assets are example UI controls, not a library hero."
+    "reason": "Generated for treeform.org to match the existing library banners.",
+    "upstreamAudit": {
+      "commit": "1b63e76c43e316daff78ecb2147c128a482e5402",
+      "reason": "README has no artwork; image assets are example UI controls, not a library hero."
+    },
+    "origin": "generated",
+    "generator": "OpenAI built-in image_gen",
+    "prompts": "assets/libraries/generated/prompts.json",
+    "width": 1774,
+    "height": 887,
+    "sha256": "cb2eaea462bf67f61b504377089c35fe8d60775dad8ac1321be30d88d77a9b02"
   },
   {
     "repo": "treeform/pixie",
@@ -32,10 +41,19 @@
   },
   {
     "repo": "treeform/windy",
-    "asset": null,
+    "asset": "assets/libraries/generated/windy.png",
     "source": null,
-    "commit": "549077e703ccb6e58c7d4a4d229a17bbd51a0d50",
-    "reason": "README has only a build badge; repository has only a test texture, no hero or banner."
+    "reason": "Generated for treeform.org to match the existing library banners.",
+    "upstreamAudit": {
+      "commit": "549077e703ccb6e58c7d4a4d229a17bbd51a0d50",
+      "reason": "README has only a build badge; repository has only a test texture, no hero or banner."
+    },
+    "origin": "generated",
+    "generator": "OpenAI built-in image_gen",
+    "prompts": "assets/libraries/generated/prompts.json",
+    "width": 1774,
+    "height": 887,
+    "sha256": "e2341af7b4cf52c6aad08c82cb28969d7f346fc8fafc98df8d8d8f7066ad4ea9"
   },
   {
     "repo": "treeform/fidget2",
@@ -51,17 +69,35 @@
   },
   {
     "repo": "treeform/shady",
-    "asset": null,
+    "asset": "assets/libraries/generated/shady.png",
     "source": null,
-    "commit": "c899f7cd17dbe7021d6e3aa2908e6de6549c47f1",
-    "reason": "README illustrations are shader examples, not a library hero; no dedicated banner/logo in tree."
+    "reason": "Generated for treeform.org to match the existing library banners.",
+    "upstreamAudit": {
+      "commit": "c899f7cd17dbe7021d6e3aa2908e6de6549c47f1",
+      "reason": "README illustrations are shader examples, not a library hero; no dedicated banner/logo in tree."
+    },
+    "origin": "generated",
+    "generator": "OpenAI built-in image_gen",
+    "prompts": "assets/libraries/generated/prompts.json",
+    "width": 1774,
+    "height": 887,
+    "sha256": "9879946a0bdb9500eec9bbf79a5d91f6de6db2f916a1a5eb1799d2a3bc369de0"
   },
   {
     "repo": "treeform/orbits",
-    "asset": null,
+    "asset": "assets/libraries/generated/orbits.png",
     "source": null,
-    "commit": "39865fe0e0bde9b42a5cd81427257b379c4012ca",
-    "reason": "README illustrations are orbital diagrams and test plots, not a library hero; no dedicated banner/logo in tree."
+    "reason": "Generated for treeform.org to match the existing library banners.",
+    "upstreamAudit": {
+      "commit": "39865fe0e0bde9b42a5cd81427257b379c4012ca",
+      "reason": "README illustrations are orbital diagrams and test plots, not a library hero; no dedicated banner/logo in tree."
+    },
+    "origin": "generated",
+    "generator": "OpenAI built-in image_gen",
+    "prompts": "assets/libraries/generated/prompts.json",
+    "width": 1774,
+    "height": 887,
+    "sha256": "b61c383bfe4cfd367d2bbc68b1b18039db5785b7d817e9f3f610770c7cfccc9b"
   },
   {
     "repo": "treeform/gltf",
@@ -89,17 +125,35 @@
   },
   {
     "repo": "treeform/spacy",
-    "asset": null,
+    "asset": "assets/libraries/generated/spacy.png",
     "source": null,
-    "commit": "5d77384202a7b4377423310b94e75ef987c1dcb9",
-    "reason": "No leading hero/banner/logo in README or dedicated hero/banner/logo asset in repository tree. Existing icon retained."
+    "reason": "Generated for treeform.org to match the existing library banners.",
+    "upstreamAudit": {
+      "commit": "5d77384202a7b4377423310b94e75ef987c1dcb9",
+      "reason": "No leading hero/banner/logo in README or dedicated hero/banner/logo asset in repository tree. Existing icon retained."
+    },
+    "origin": "generated",
+    "generator": "OpenAI built-in image_gen",
+    "prompts": "assets/libraries/generated/prompts.json",
+    "width": 1774,
+    "height": 887,
+    "sha256": "a87c569761335e50da00a29738a4877e120478d56f2f8d1ff8744a6137b62088"
   },
   {
     "repo": "treeform/bumpy",
-    "asset": null,
+    "asset": "assets/libraries/generated/bumpy.png",
     "source": null,
-    "commit": "93583f6f8056a6259aaa96c89f4c143ba55bc6f0",
-    "reason": "No leading hero/banner/logo in README or dedicated hero/banner/logo asset in repository tree. Existing icon retained."
+    "reason": "Generated for treeform.org to match the existing library banners.",
+    "upstreamAudit": {
+      "commit": "93583f6f8056a6259aaa96c89f4c143ba55bc6f0",
+      "reason": "No leading hero/banner/logo in README or dedicated hero/banner/logo asset in repository tree. Existing icon retained."
+    },
+    "origin": "generated",
+    "generator": "OpenAI built-in image_gen",
+    "prompts": "assets/libraries/generated/prompts.json",
+    "width": 1774,
+    "height": 887,
+    "sha256": "3d3ba1e14b62e58b6bc8cc1204609b0cc730c3703201eff3e8a477e6f32d4a0f"
   },
   {
     "repo": "treeform/vmath",
@@ -163,17 +217,35 @@
   },
   {
     "repo": "treeform/slappy",
-    "asset": null,
+    "asset": "assets/libraries/generated/slappy.png",
     "source": null,
-    "commit": "bd8eed6f4e0c02be517f3d8a8d8653a5015ca16b",
-    "reason": "No hero/banner/logo in README or repository tree. Only unrelated UI test assets."
+    "reason": "Generated for treeform.org to match the existing library banners.",
+    "upstreamAudit": {
+      "commit": "bd8eed6f4e0c02be517f3d8a8d8653a5015ca16b",
+      "reason": "No hero/banner/logo in README or repository tree. Only unrelated UI test assets."
+    },
+    "origin": "generated",
+    "generator": "OpenAI built-in image_gen",
+    "prompts": "assets/libraries/generated/prompts.json",
+    "width": 1774,
+    "height": 887,
+    "sha256": "35d8986e1c13a6d9de51946dede7d7442678cb55cdb09817c696a97120fb518e"
   },
   {
     "repo": "guzba/mummy",
-    "asset": null,
+    "asset": "assets/libraries/generated/mummy.png",
     "source": null,
-    "commit": "01deb1ff694988635c7bf0f24f6088a0bdf6db5d",
-    "reason": "No embedded hero/banner/logo in README or repository tree. docs/mummy.jpg is linked only as a historical name reference, not a project hero."
+    "reason": "Generated for treeform.org to match the existing library banners.",
+    "upstreamAudit": {
+      "commit": "01deb1ff694988635c7bf0f24f6088a0bdf6db5d",
+      "reason": "No embedded hero/banner/logo in README or repository tree. docs/mummy.jpg is linked only as a historical name reference, not a project hero."
+    },
+    "origin": "generated",
+    "generator": "OpenAI built-in image_gen",
+    "prompts": "assets/libraries/generated/prompts.json",
+    "width": 1774,
+    "height": 887,
+    "sha256": "3b0c152162b48f8954169fda6fdf2afec5a8a1842debf1d425c582015ec11cfd"
   },
   {
     "repo": "treeform/ws",
@@ -225,59 +297,131 @@
   },
   {
     "repo": "guzba/ready",
-    "asset": null,
+    "asset": "assets/libraries/generated/ready.png",
     "source": null,
-    "commit": "82f12ce64b9c8a03a60382118ce4b6a014fc9aa0",
-    "reason": "No repository hero/banner/logo artwork found; README has only text and status badges, and repository tree has no suitable image assets. Keep existing icon."
+    "reason": "Generated for treeform.org to match the existing library banners.",
+    "upstreamAudit": {
+      "commit": "82f12ce64b9c8a03a60382118ce4b6a014fc9aa0",
+      "reason": "No repository hero/banner/logo artwork found; README has only text and status badges, and repository tree has no suitable image assets. Keep existing icon."
+    },
+    "origin": "generated",
+    "generator": "OpenAI built-in image_gen",
+    "prompts": "assets/libraries/generated/prompts.json",
+    "width": 1774,
+    "height": 887,
+    "sha256": "c3eced18705d8ddeabe0cf71f7186f085d146896108ea1fa0072de16c2750b6e"
   },
   {
     "repo": "guzba/whisky",
-    "asset": null,
+    "asset": "assets/libraries/generated/whisky.png",
     "source": null,
-    "commit": "494fb1046f5a563defc87ac36b8c62846ee7ea2c",
-    "reason": "No repository hero/banner/logo artwork found; README has only text and status badges, and repository tree has no suitable image assets. Keep existing icon."
+    "reason": "Generated for treeform.org to match the existing library banners.",
+    "upstreamAudit": {
+      "commit": "494fb1046f5a563defc87ac36b8c62846ee7ea2c",
+      "reason": "No repository hero/banner/logo artwork found; README has only text and status badges, and repository tree has no suitable image assets. Keep existing icon."
+    },
+    "origin": "generated",
+    "generator": "OpenAI built-in image_gen",
+    "prompts": "assets/libraries/generated/prompts.json",
+    "width": 1774,
+    "height": 887,
+    "sha256": "60a7c47fe20b30f73f109733a38f5f47fc11b3b337b40ca2c1aa0c9ec305cd9f"
   },
   {
     "repo": "guzba/curly",
-    "asset": null,
+    "asset": "assets/libraries/generated/curly.png",
     "source": null,
-    "commit": "29558e2d2b76244a2c65fea08e9f4efff16c1997",
-    "reason": "No repository hero/banner/logo artwork found; README has only text and status badges, and repository tree has no suitable image assets. Keep existing icon."
+    "reason": "Generated for treeform.org to match the existing library banners.",
+    "upstreamAudit": {
+      "commit": "29558e2d2b76244a2c65fea08e9f4efff16c1997",
+      "reason": "No repository hero/banner/logo artwork found; README has only text and status badges, and repository tree has no suitable image assets. Keep existing icon."
+    },
+    "origin": "generated",
+    "generator": "OpenAI built-in image_gen",
+    "prompts": "assets/libraries/generated/prompts.json",
+    "width": 1774,
+    "height": 887,
+    "sha256": "311abe7cbd990dbb78eec1d4c79e1da59b7e699cbc10a4a578f46dc0a6fad3b7"
   },
   {
     "repo": "guzba/jwtea",
-    "asset": null,
+    "asset": "assets/libraries/generated/jwtea.png",
     "source": null,
-    "commit": "21d1617996f1928492e665c8008b0b3fc8b4a629",
-    "reason": "No repository hero/banner/logo artwork found; README has only text and status badges, and repository tree has no suitable image assets. Keep existing icon."
+    "reason": "Generated for treeform.org to match the existing library banners.",
+    "upstreamAudit": {
+      "commit": "21d1617996f1928492e665c8008b0b3fc8b4a629",
+      "reason": "No repository hero/banner/logo artwork found; README has only text and status badges, and repository tree has no suitable image assets. Keep existing icon."
+    },
+    "origin": "generated",
+    "generator": "OpenAI built-in image_gen",
+    "prompts": "assets/libraries/generated/prompts.json",
+    "width": 1774,
+    "height": 887,
+    "sha256": "9930e060c61677bc82c0374b80142d3b3ce27269ec110997384795aa8fddb78a"
   },
   {
     "repo": "treeform/jsony",
-    "asset": null,
+    "asset": "assets/libraries/generated/jsony.png",
     "source": null,
-    "commit": "ce1ea84458c721947bd8e86ec065eeefab2656f1",
-    "reason": "No repository hero/banner/logo artwork found; README has only text and status badges, and repository tree has no suitable image assets. Keep existing icon."
+    "reason": "Generated for treeform.org to match the existing library banners.",
+    "upstreamAudit": {
+      "commit": "ce1ea84458c721947bd8e86ec065eeefab2656f1",
+      "reason": "No repository hero/banner/logo artwork found; README has only text and status badges, and repository tree has no suitable image assets. Keep existing icon."
+    },
+    "origin": "generated",
+    "generator": "OpenAI built-in image_gen",
+    "prompts": "assets/libraries/generated/prompts.json",
+    "width": 1774,
+    "height": 887,
+    "sha256": "0b06bd90cca9d458dacc6be7489c1c7d91098a6ef8982783d464988468ad3fe4"
   },
   {
     "repo": "guzba/zippy",
-    "asset": null,
+    "asset": "assets/libraries/generated/zippy.png",
     "source": null,
-    "commit": "d04ef53d76132bbd46e4a4a9058440831f0b4824",
-    "reason": "README has only a workflow badge and the repository contains no hero/banner/logo artwork."
+    "reason": "Generated for treeform.org to match the existing library banners.",
+    "upstreamAudit": {
+      "commit": "d04ef53d76132bbd46e4a4a9058440831f0b4824",
+      "reason": "README has only a workflow badge and the repository contains no hero/banner/logo artwork."
+    },
+    "origin": "generated",
+    "generator": "OpenAI built-in image_gen",
+    "prompts": "assets/libraries/generated/prompts.json",
+    "width": 1774,
+    "height": 887,
+    "sha256": "2e45fdc173230ca465d2b1e77a60e50f58a666e00eee68a3f58483d5502ddb11"
   },
   {
     "repo": "treeform/flatty",
-    "asset": null,
+    "asset": "assets/libraries/generated/flatty.png",
     "source": null,
-    "commit": "9c3f14cc287890b742196b4f0f74f0b9faab29cb",
-    "reason": "README has only a workflow badge and the repository contains no hero/banner/logo artwork."
+    "reason": "Generated for treeform.org to match the existing library banners.",
+    "upstreamAudit": {
+      "commit": "9c3f14cc287890b742196b4f0f74f0b9faab29cb",
+      "reason": "README has only a workflow badge and the repository contains no hero/banner/logo artwork."
+    },
+    "origin": "generated",
+    "generator": "OpenAI built-in image_gen",
+    "prompts": "assets/libraries/generated/prompts.json",
+    "width": 1774,
+    "height": 887,
+    "sha256": "a5ed45022dbd2a247e22e07a181e486d1bd8755d256c8cf332ef2aa07318db15"
   },
   {
     "repo": "guzba/supersnappy",
-    "asset": null,
+    "asset": "assets/libraries/generated/supersnappy.png",
     "source": null,
-    "commit": "4fed6553d539cbbfb17ab5fea16a58b4f1916e7d",
-    "reason": "README has only a workflow badge and the repository contains no hero/banner/logo artwork."
+    "reason": "Generated for treeform.org to match the existing library banners.",
+    "upstreamAudit": {
+      "commit": "4fed6553d539cbbfb17ab5fea16a58b4f1916e7d",
+      "reason": "README has only a workflow badge and the repository contains no hero/banner/logo artwork."
+    },
+    "origin": "generated",
+    "generator": "OpenAI built-in image_gen",
+    "prompts": "assets/libraries/generated/prompts.json",
+    "width": 1774,
+    "height": 887,
+    "sha256": "163829de5da558e0a66ed25b87bd0c9a8401c94d60c0801700b4073d8b71a022"
   },
   {
     "repo": "treeform/chrono",
@@ -293,10 +437,19 @@
   },
   {
     "repo": "treeform/bitty",
-    "asset": null,
+    "asset": "assets/libraries/generated/bitty.png",
     "source": null,
-    "commit": "e0d3307f3803b7684142fd170fb32f539e45c9dd",
-    "reason": "README has only a workflow badge and the repository contains no hero/banner/logo artwork."
+    "reason": "Generated for treeform.org to match the existing library banners.",
+    "upstreamAudit": {
+      "commit": "e0d3307f3803b7684142fd170fb32f539e45c9dd",
+      "reason": "README has only a workflow badge and the repository contains no hero/banner/logo artwork."
+    },
+    "origin": "generated",
+    "generator": "OpenAI built-in image_gen",
+    "prompts": "assets/libraries/generated/prompts.json",
+    "width": 1774,
+    "height": 887,
+    "sha256": "34d50f1f28ebf2c14e48a5ed770223d273ff727690dd8228a8b9d9197b9a3f4f"
   },
   {
     "repo": "treeform/steganography",
@@ -312,24 +465,51 @@
   },
   {
     "repo": "treeform/taggy",
-    "asset": null,
+    "asset": "assets/libraries/generated/taggy.png",
     "source": null,
-    "commit": "e80ed1a806e871fd4ead4e0d3e9f6593569c0e38",
-    "reason": "No hero/banner/logo in README or repository image files. Keep existing icon."
+    "reason": "Generated for treeform.org to match the existing library banners.",
+    "upstreamAudit": {
+      "commit": "e80ed1a806e871fd4ead4e0d3e9f6593569c0e38",
+      "reason": "No hero/banner/logo in README or repository image files. Keep existing icon."
+    },
+    "origin": "generated",
+    "generator": "OpenAI built-in image_gen",
+    "prompts": "assets/libraries/generated/prompts.json",
+    "width": 1774,
+    "height": 887,
+    "sha256": "4d35dd6bd2371be06f86747ef975f9ed463d09338e48c0006f90e8713a3552c2"
   },
   {
     "repo": "treeform/tabby",
-    "asset": null,
+    "asset": "assets/libraries/generated/tabby.png",
     "source": null,
-    "commit": "7bbdbfba9cc80f5b017a3123f9dd29e5b0601c79",
-    "reason": "No hero/banner/logo in README or repository image files. Keep existing icon."
+    "reason": "Generated for treeform.org to match the existing library banners.",
+    "upstreamAudit": {
+      "commit": "7bbdbfba9cc80f5b017a3123f9dd29e5b0601c79",
+      "reason": "No hero/banner/logo in README or repository image files. Keep existing icon."
+    },
+    "origin": "generated",
+    "generator": "OpenAI built-in image_gen",
+    "prompts": "assets/libraries/generated/prompts.json",
+    "width": 1774,
+    "height": 887,
+    "sha256": "2be2e8d301ba8842907c8301af892a0ad915e231c2207598b7b63a09da432512"
   },
   {
     "repo": "guzba/crunchy",
-    "asset": null,
+    "asset": "assets/libraries/generated/crunchy.png",
     "source": null,
-    "commit": "98eb6526982bb8aae8eec6e8781f4539fa19e049",
-    "reason": "No hero/banner/logo in README or repository image files. Keep existing icon."
+    "reason": "Generated for treeform.org to match the existing library banners.",
+    "upstreamAudit": {
+      "commit": "98eb6526982bb8aae8eec6e8781f4539fa19e049",
+      "reason": "No hero/banner/logo in README or repository image files. Keep existing icon."
+    },
+    "origin": "generated",
+    "generator": "OpenAI built-in image_gen",
+    "prompts": "assets/libraries/generated/prompts.json",
+    "width": 1774,
+    "height": 887,
+    "sha256": "e63d4893ba58e5d16237e7cee7478825056af1e009c07ff22269041354be728f"
   },
   {
     "repo": "treeform/genny",
@@ -357,30 +537,66 @@
   },
   {
     "repo": "treeform/nimtemplate",
-    "asset": null,
+    "asset": "assets/libraries/generated/nimtemplate.png",
     "source": null,
-    "commit": "27c987d914c31fe0aa71a6651cfb83664b6dba17",
-    "reason": "No hero/banner/logo in README or repository image files. Keep existing icon."
+    "reason": "Generated for treeform.org to match the existing library banners.",
+    "upstreamAudit": {
+      "commit": "27c987d914c31fe0aa71a6651cfb83664b6dba17",
+      "reason": "No hero/banner/logo in README or repository image files. Keep existing icon."
+    },
+    "origin": "generated",
+    "generator": "OpenAI built-in image_gen",
+    "prompts": "assets/libraries/generated/prompts.json",
+    "width": 1774,
+    "height": 887,
+    "sha256": "3d04a8bf1fd0ef794773feebc26b969125c85c61c01953f1160ae905336876fc"
   },
   {
     "repo": "treeform/benchy",
-    "asset": null,
+    "asset": "assets/libraries/generated/benchy.png",
     "source": null,
-    "commit": "6425417b578dc54008285aad020625b4b4f61f7b",
-    "reason": "No hero/banner/logo in README or repository image files. Keep existing icon."
+    "reason": "Generated for treeform.org to match the existing library banners.",
+    "upstreamAudit": {
+      "commit": "6425417b578dc54008285aad020625b4b4f61f7b",
+      "reason": "No hero/banner/logo in README or repository image files. Keep existing icon."
+    },
+    "origin": "generated",
+    "generator": "OpenAI built-in image_gen",
+    "prompts": "assets/libraries/generated/prompts.json",
+    "width": 1774,
+    "height": 887,
+    "sha256": "41d45d2f3dcbb9d9f4d0c853a9a44dba82737d86248cd7a3afaf56fc86818721"
   },
   {
     "repo": "guzba/nimsimd",
-    "asset": null,
+    "asset": "assets/libraries/generated/nimsimd.png",
     "source": null,
-    "commit": "dd27017fbfd1c6c00d37776a8f5d322bf6c5a83b",
-    "reason": "No hero/banner/logo in README or repository image files. Keep existing icon."
+    "reason": "Generated for treeform.org to match the existing library banners.",
+    "upstreamAudit": {
+      "commit": "dd27017fbfd1c6c00d37776a8f5d322bf6c5a83b",
+      "reason": "No hero/banner/logo in README or repository image files. Keep existing icon."
+    },
+    "origin": "generated",
+    "generator": "OpenAI built-in image_gen",
+    "prompts": "assets/libraries/generated/prompts.json",
+    "width": 1774,
+    "height": 887,
+    "sha256": "cf7a8c6000c75f270b0da808f3a5c62a140e45d46f6416968cc27abff8c043b3"
   },
   {
     "repo": "treeform/pretty",
-    "asset": null,
+    "asset": "assets/libraries/generated/pretty.png",
     "source": null,
-    "commit": "19bc560f0c7d8f8debf40640b64fa211872f8a66",
-    "reason": "README has only lower-page example screenshots, not a hero/banner/logo. Keep existing icon."
+    "reason": "Generated for treeform.org to match the existing library banners.",
+    "upstreamAudit": {
+      "commit": "19bc560f0c7d8f8debf40640b64fa211872f8a66",
+      "reason": "README has only lower-page example screenshots, not a hero/banner/logo. Keep existing icon."
+    },
+    "origin": "generated",
+    "generator": "OpenAI built-in image_gen",
+    "prompts": "assets/libraries/generated/prompts.json",
+    "width": 1774,
+    "height": 887,
+    "sha256": "b372f3c2db98757af5e5e196c03ddc76c1f43560f619115849bb814268e822f3"
   }
 ]

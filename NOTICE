@@ -26,4 +26,6 @@ Game artwork is excluded from the site MIT license.
 
 Library artwork
 See assets/libraries/NOTICES.txt for original repository hero images and
-assets/libraries/licenses/ for their upstream license notices.
+generated site banners. Original repository image licenses are preserved
+in assets/libraries/licenses/. Generation prompts and file destinations
+are recorded in assets/libraries/generated/prompts.json.

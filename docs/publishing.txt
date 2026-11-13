@@ -61,9 +61,12 @@ Use the repository's hero image when it has one. Store the original image
 in assets/libraries/, record its source in sources.json and NOTICES.txt,
 and retain the upstream license in assets/libraries/licenses/. Copy an
 existing project-with-art article and update its image and dimensions.
-For libraries without hero artwork, add an icon to assets/icons.svg and
-reference that symbol with the project tile's use element. Move articles
-to change their order.
+For libraries without upstream hero artwork, the site uses matching
+generated banners in assets/libraries/generated/. Their prompts are saved
+in generated/prompts.json and sources.json identifies them as generated.
+New libraries can use an icon from assets/icons.svg until they have a
+banner. Keep banners at 2:1 with centered artwork. Move articles to change
+their order.
 Supported library categories are graphics, interfaces, networking, data,
 and tools. Search and category filters affect only the Libraries section.
 The catalog is ordinary HTML and remains readable without JavaScript.
